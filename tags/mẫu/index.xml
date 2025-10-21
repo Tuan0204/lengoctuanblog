@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mẫu on MyBlog</title><link>https://example.com/tags/m%E1%BA%ABu/</link><description>Recent content in Mẫu on MyBlog</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Oct 2025 23:15:43 +0700</lastBuildDate><atom:link href="https://example.com/tags/m%E1%BA%ABu/index.xml" rel="self" type="application/rss+xml"/><item><title>Chào mừng đến với blog của tôi</title><link>https://example.com/chao-mung/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://example.com/chao-mung/</guid><description>&lt;h1 id="chào-mừng"&gt;Chào mừng!&lt;/h1&gt;
+&lt;p&gt;Đây là bài viết mẫu đầu tiên trên blog Hugo của bạn. Bạn có thể chỉnh sửa nội dung này hoặc tạo thêm các bài viết mới tại thư mục &lt;code&gt;content/posts/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="hướng-dẫn"&gt;Hướng dẫn&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sử dụng Markdown để viết bài.&lt;/li&gt;
+&lt;li&gt;Thêm các trường &lt;code&gt;categories&lt;/code&gt; và &lt;code&gt;tags&lt;/code&gt; để phân loại bài viết.&lt;/li&gt;
+&lt;li&gt;Đặt &lt;code&gt;draft: false&lt;/code&gt; để bài viết hiển thị công khai.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chúc bạn xây dựng blog thành công!&lt;/p&gt;</description></item></channel></rss>

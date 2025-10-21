@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on MyBlog</title><link>https://example.com/categories/blog/</link><description>Recent content in Blog on MyBlog</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Oct 2025 23:15:43 +0700</lastBuildDate><atom:link href="https://example.com/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Giới thiệu về Hugo</title><link>https://example.com/gioi-thieu-hugo/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://example.com/gioi-thieu-hugo/</guid><description>&lt;h1 id="hugo-là-gì"&gt;Hugo là gì?&lt;/h1&gt;
+&lt;p&gt;Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.com/images/images.jpg" alt="Logo Hugo"&gt;&lt;/p&gt;
+&lt;p&gt;Bạn có thể thêm hình ảnh vào bài viết bằng cú pháp Markdown như trên. Đảm bảo file ảnh đã được đặt đúng vị trí trong thư mục &lt;code&gt;static/images/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="tính-năng-nổi-bật"&gt;Tính năng nổi bật&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tốc độ build cực nhanh&lt;/li&gt;
+&lt;li&gt;Hỗ trợ Markdown&lt;/li&gt;
+&lt;li&gt;Dễ dàng mở rộng với theme và plugin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hãy thử tạo thêm nhiều bài viết với hình ảnh để blog của bạn sinh động hơn!&lt;/p&gt;</description></item><item><title>Hướng dẫn sử dụng Hugo cho blog cá nhân</title><link>https://example.com/huong-dan-hugo/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://example.com/huong-dan-hugo/</guid><description>&lt;h1 id="hướng-dẫn-sử-dụng-hugo"&gt;Hướng dẫn sử dụng Hugo&lt;/h1&gt;
+&lt;p&gt;Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.&lt;/p&gt;
+&lt;h2 id="tại-sao-chọn-hugo"&gt;Tại sao chọn Hugo?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Build cực nhanh&lt;/li&gt;
+&lt;li&gt;Hỗ trợ Markdown&lt;/li&gt;
+&lt;li&gt;Dễ mở rộng với theme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hình-ảnh-minh-họa"&gt;Hình ảnh minh họa&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://example.com/images/hugo-static.png" alt="Hugo Static Site"&gt;&lt;/p&gt;
+&lt;p&gt;Bạn có thể thêm nhiều bài viết với cùng tag/category để kiểm tra tính năng taxonomy của Hugo.&lt;/p&gt;</description></item></channel></rss>

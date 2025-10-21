@@ -1,0 +1,4 @@
+{{/*
+  Default codeblock renderer for Hugo markup
+*/}}
+<pre><code class="language-{{ .Type | default "plaintext" }}">{{ .Inner | safeHTML }}</code></pre>

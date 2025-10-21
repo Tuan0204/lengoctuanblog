@@ -1,9 +1,61 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Lovelt</title>
+        <title>MyBlog</title>
         <link>http://localhost:1313/</link>
         <description>Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>Chào mừng đến với blog của tôi</title>
+    <link>http://localhost:1313/chao-mung/</link>
+    <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Le Ngoc Tuan</author>
+    <guid>http://localhost:1313/chao-mung/</guid>
+    <description><![CDATA[<h1 id="chào-mừng">Chào mừng!</h1>
+<p>Đây là bài viết mẫu đầu tiên trên blog Hugo của bạn. Bạn có thể chỉnh sửa nội dung này hoặc tạo thêm các bài viết mới tại thư mục <code>content/posts/</code>.</p>
+<h2 id="hướng-dẫn">Hướng dẫn</h2>
+<ul>
+<li>Sử dụng Markdown để viết bài.</li>
+<li>Thêm các trường <code>categories</code> và <code>tags</code> để phân loại bài viết.</li>
+<li>Đặt <code>draft: false</code> để bài viết hiển thị công khai.</li>
+</ul>
+<p>Chúc bạn xây dựng blog thành công!</p>]]></description>
+</item>
+<item>
+    <title>Giới thiệu về Hugo</title>
+    <link>http://localhost:1313/gioi-thieu-hugo/</link>
+    <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Le Ngoc Tuan</author>
+    <guid>http://localhost:1313/gioi-thieu-hugo/</guid>
+    <description><![CDATA[<h1 id="hugo-là-gì">Hugo là gì?</h1>
+<p>Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.</p>
+<p></p>
+<p>Bạn có thể thêm hình ảnh vào bài viết bằng cú pháp Markdown như trên. Đảm bảo file ảnh đã được đặt đúng vị trí trong thư mục <code>static/images/</code>.</p>
+<h2 id="tính-năng-nổi-bật">Tính năng nổi bật</h2>
+<ul>
+<li>Tốc độ build cực nhanh</li>
+<li>Hỗ trợ Markdown</li>
+<li>Dễ dàng mở rộng với theme và plugin</li>
+</ul>
+<p>Hãy thử tạo thêm nhiều bài viết với hình ảnh để blog của bạn sinh động hơn!</p>]]></description>
+</item>
+<item>
+    <title>Hướng dẫn sử dụng Hugo cho blog cá nhân</title>
+    <link>http://localhost:1313/huong-dan-hugo/</link>
+    <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>Le Ngoc Tuan</author>
+    <guid>http://localhost:1313/huong-dan-hugo/</guid>
+    <description><![CDATA[<h1 id="hướng-dẫn-sử-dụng-hugo">Hướng dẫn sử dụng Hugo</h1>
+<p>Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.</p>
+<h2 id="tại-sao-chọn-hugo">Tại sao chọn Hugo?</h2>
+<ul>
+<li>Build cực nhanh</li>
+<li>Hỗ trợ Markdown</li>
+<li>Dễ mở rộng với theme</li>
+</ul>
+<h2 id="hình-ảnh-minh-họa">Hình ảnh minh họa</h2>
+<p></p>
+<p>Bạn có thể thêm nhiều bài viết với cùng tag/category để kiểm tra tính năng taxonomy của Hugo.</p>]]></description>
+</item>
+</channel>
 </rss>

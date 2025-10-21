@@ -9,7 +9,7 @@ themesDir = "themes"
 
 # website title
 # 网站标题
-title = "Lovelt"
+title = "MyBlog"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -89,7 +89,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/Tuan0204/lengoctuanblog.git"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
@@ -100,7 +100,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "Lovelt"
+  title = "MyBlog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."
@@ -111,7 +111,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Author config
   # 作者配置
   [params.author]
-    name = "xxxx"
+    name = "Le Ngoc Tuan"
     email = ""
     link = ""
 
@@ -132,7 +132,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "My Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
@@ -200,9 +200,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "LoveIt"
-    # whether to omit favicon resource links
-    # 是否隐藏网站图标资源链接
+  title = "MyBlog"
+  subtitle = "Xin chào, chào mừng đến với blog của tôi"
+  disclaimer = ""
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -221,31 +221,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 搜索配置
   [params.search]
     enable = true
-    # type of search engine ["lunr", "algolia"]
-    # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "algolia"
-    # max index length of the chunked content
-    # 文章内容最长索引长度
+    type = "lunr"
     contentLength = 4000
-    # placeholder of the search bar
-    # 搜索框的占位提示语
-    placeholder = ""
-    # max number of results length
-    # 最大结果数目
-    maxResultLength = 10
-    # snippet length of the result
-    # 结果内容片段长度
-    snippetLength = 30
-    # HTML tag name of the highlight part in results
-    # 搜索结果中高亮部分的 HTML 标签
+    placeholder = "Tìm kiếm bài viết..."
+    maxResultLength = 20
+    snippetLength = 50
     highlightTag = "em"
-    # whether to use the absolute URL based on the baseURL in search index
-    # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
-    [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
 
   # Home page config
   # 主页信息设置
@@ -263,9 +245,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of avatar shown in home page
       # 主页显示头像的 URL
       avatarURL = "/images/avatar.png"
-      # title shown in home page (HTML format is supported)
-      # 主页显示的网站标题 (支持 HTML 格式)
-      title = "Lovelt"
+  # title shown in home page (HTML format is supported)
+  # 主页显示的网站标题 (支持 HTML 格式)
+  title = "MyBlog"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
       subtitle = "Xin chào, chào mừng đến với blog của tôi"
@@ -869,24 +851,20 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.en.params]
       [languages.en.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
+        placeholder = "Tìm kiếm bài viết..."
+        maxResultLength = 20
+        snippetLength = 50
         highlightTag = "em"
         absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index"
-          appID = "4D1IDY8JU6"
-          searchKey = "05332ac5ed76655a511f0da583a9afac"
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = ""
+          title = "MyBlog"
           subtitle = "Xin chào, chào mừng đến với blog của tôi"
           typeit = true
           social = true
@@ -964,17 +942,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
+        placeholder = "Tìm kiếm bài viết..."
+        maxResultLength = 20
         snippetLength = 50
         highlightTag = "em"
         absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index"
-          appID = "GZT24PWKNT"
-          searchKey = "634ab679e825b815de2663de38908f9d"
       [languages.zh-cn.params.home]
         rss = 10
         [languages.zh-cn.params.home.profile]

@@ -4,10 +4,12 @@
 # LÊ NGỌC TUẤN
 **Công nghệ thông tin**
 
+## Thông tin liên hệ
+- **SĐT:** 0779478666
+- **Email:** lengoctuanltk@gmail.com
+- **Địa chỉ:** 220/15 Đường Nguyễn Văn Khối, TP Hồ Chí Minh
+
 ## Học vấn
-- Trường Đại học Công nghệ HuTech
-- Ngành: Công nghệ Thông tin
-- GPA: 2.94 (2022-2024)
 
 ## Kinh nghiệm
 - **Hệ thống phân loại cảm xúc từ đánh giá khách hàng**

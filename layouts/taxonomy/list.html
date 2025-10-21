@@ -1,0 +1,35 @@
+{{- define "title" -}}
+    {{- .Title }} - {{ T .Data.Singular | default .Data.Singular }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+    <div class="page archive">
+        {{- /* Title */ -}}
+        <h2 class="single-title animate__animated animate__pulse animate__faster">
+            {{- $taxonomy := .Data.Singular -}}
+            {{- if eq $taxonomy "category" -}}
+                <i class="far fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title }}
+            {{- else if eq $taxonomy "tag" -}}
+                <i class="fas fa-tag fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title }}
+            {{- else -}}
+                {{- printf "%v - %v" (T $taxonomy | default $taxonomy) .Title -}}
+            {{- end -}}
+        </h2>
+
+        {{- /* Simple per-term pages: list pages with links. This uses the theme's simpler approach to avoid grouping/pagination issues. */ -}}
+        <div class="debug-info">
+            <p>DEBUG: len .Pages = {{ len .Pages }}</p>
+        </div>
+        {{- if .Pages -}}
+            <ul>
+            {{- range .Pages -}}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+                </li>
+            {{- end -}}
+            </ul>
+        {{- else -}}
+            <p>No posts for this term.</p>
+        {{- end -}}
+    </div>
+{{- end -}}

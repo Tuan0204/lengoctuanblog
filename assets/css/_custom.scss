@@ -1,0 +1,51 @@
+/* Site-level custom overrides (safe to use, won't modify theme files)
+   We only override archive title alignment here. */
+
+.archive {
+  .single-title {
+    text-align: left;
+  }
+}
+
+/* Terms index grid/cards */
+.terms-index {
+  .terms-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 1.5rem;
+  }
+
+  .term-card {
+    border-radius: 6px;
+    padding: 1rem 0;
+  }
+
+  .term-title {
+    font-size: 1.125rem;
+    margin: 0 0 0.75rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .term-count {
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .term-sample-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .term-sample-list li {
+    margin: 0.45rem 0;
+  }
+
+  .no-sample {
+    color: #777;
+    font-size: 0.95rem;
+  }
+}

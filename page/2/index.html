@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta name="generator" content="Hugo 0.151.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="MyBlog">
+  <meta property="og:title" content="Xin chào, chào mừng đến với blog của tôi">
+  <meta property="og:description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="Xin chào, chào mừng đến với blog của tôi">
+  <meta name="twitter:description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.">
+<meta name="application-name" content="MyBlog">
+<meta name="apple-mobile-web-app-title" content="MyBlog">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="MyBlog">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="MyBlog"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "http:\/\/localhost:1313\/","inLanguage": "en","author": {
+                "@type": "Person",
+                "name": "Le Ngoc Tuan"
+            },"description": "Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.","image": "http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png","thumbnailUrl": "http:\/\/localhost:1313\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "MyBlog"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="MyBlog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>My Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/Tuan0204/lengoctuanblog.git" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Tìm kiếm bài viết..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/" selected>English</option><option value="/zh-cn/">简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="MyBlog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>My Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Tìm kiếm bài viết..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/Tuan0204/lengoctuanblog.git" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/" selected>English</option><option value="/zh-cn/">简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/posts/" title="Posts"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/portrait.jpg"
+        data-srcset="/images/portrait.jpg, /images/portrait.jpg 1.5x, /images/portrait.jpg 2x"
+        data-sizes="auto"
+        alt="/images/portrait.jpg"
+        title="/images/portrait.jpg" /></a></div><h1 class="home-title">MyBlog</h1><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/xxxx" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://x.com/xxxx" title="X" target="_blank" rel="noopener noreffer me"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="https://www.instagram.com/xxxx" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="https://facebook.com/xxxx" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw" aria-hidden="true"></i></a><a href="https://t.me/xxxx" title="Telegram" target="_blank" rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw" aria-hidden="true"></i></a><a href="https://www.youtube.com/user/xxxx" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube fa-fw" aria-hidden="true"></i></a><a href="https://mastodon.technology/@xxxx" title="Mastodon" target="_blank" rel="noopener noreffer me"><i class="fab fa-mastodon fa-fw" aria-hidden="true"></i></a><a href="https://huggingface.co/xxxx" title="Hugging Face" target="_blank" rel="noopener noreffer me"><i data-svg-src="/lib/simple-icons/icons/huggingface.min.svg" aria-hidden="true"></i></a><a href="https://www.threads.net/@xxxx" title="Threads" target="_blank" rel="noopener noreffer me"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="tel:555-555-555" title="Phone" rel="me"><i class="fas fa-phone fa-fw" aria-hidden="true"></i></a><a href="mailto:xxxx@xxxx.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div></div>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/java-streams-collections/">Java Streams và Collections: Xử lý dữ liệu hiệu quả</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1532619675605-0f4e1f3d6f8b?q=80&w=1600&auto=format&fit=crop" alt="Java streams" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.</p>
+<h3 id="ví-dụ-cơ-bản">Ví dụ cơ bản</h3>
+
+<pre><code class="language-java">List<String> names = Arrays.asList("An", "Binh", "Cuong");
+List<String> filtered = names.stream()
+    .filter(s -> s.length() > 3)
+    .map(String::toUpperCase)
+    .collect(Collectors.toList());</code></pre>
+<h3 id="tips-tối-ưu">Tips tối ưu</h3>
+<ul>
+<li>Tránh dùng stream trong vòng lặp nặng, cân nhắc song song (parallelStream) khi tập dữ liệu lớn.</li>
+<li>Sử dụng Collector để gom nhóm, tính toán tổng hợp.</li>
+</ul>
+<p>Streams kết hợp Collections giúp code ngắn gọn, dễ hiểu và dễ maintain.</p></div><div class="post-footer">
+        <a href="/java-streams-collections/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/java/">Java</a>,&nbsp;<a href="/tags/streams/">Streams</a>,&nbsp;<a href="/tags/collections/">Collections</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/js-es6-tong-quan/">JavaScript ES6+: Tổng quan các tính năng quan trọng</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop" alt="JavaScript ES6" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>ES6 (ECMAScript 2015) giới thiệu nhiều tính năng làm thay đổi cách viết JavaScript hiện đại: let/const, arrow functions, classes, template literals, destructuring, modules, và Promise.</p>
+<h3 id="ví-dụ-arrow-function">Ví dụ arrow function</h3>
+
+<pre><code class="language-javascript">const add = (a, b) => a + b;</code></pre>
+<p>Các tính năng này giúp code rõ ràng, ngắn gọn và dễ maintain.</p></div><div class="post-footer">
+        <a href="/js-es6-tong-quan/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/javascript/">Javascript</a>,&nbsp;<a href="/tags/es6/">Es6</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/kho-khan-va-kinh-nghiem-hoc-java/">Khó khăn và kinh nghiệm khi học Java: Lời khuyên thực tế</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/c%C3%A1-nh%C3%A2n/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Cá Nhân</a>&nbsp;<a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1600&auto=format&fit=crop" alt="Challenges coding" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>Học Java không tránh khỏi những khó khăn — tôi đã trải qua nhiều thử thách và muốn chia sẻ cách mình vượt qua.</p>
+<h3 id="những-khó-khăn-thường-gặp">Những khó khăn thường gặp</h3>
+<ul>
+<li>Khó hiểu OOP lúc đầu: lớp, interface, inheritance.</li>
+<li>Quản lý phụ thuộc và build tools: Maven/Gradle.</li>
+<li>Debugging và stack trace dài với framework lớn.</li>
+</ul>
+<h3 id="kinh-nghiệm-giải-quyết">Kinh nghiệm giải quyết</h3>
+<ul>
+<li>Viết test nhỏ để cô lập vấn đề (JUnit).</li>
+<li>Dùng debugger, log có cấu trúc (SLF4J/Logback).</li>
+<li>Chia nhỏ vấn đề, đọc stack trace từ dưới lên.</li>
+</ul>
+<h3 id="thực-hành-đề-xuất">Thực hành đề xuất</h3>
+<ul>
+<li>Làm mini-project liên tục: CRUD app, xử lý dữ liệu, tích hợp API.</li>
+<li>Đọc code của dự án mã nguồn mở để học patterns.</li>
+</ul>
+<p>Kết luận: kiên nhẫn, thực hành có hướng dẫn và học cách debug sẽ giúp bạn tiến bộ nhanh hơn.</p></div><div class="post-footer">
+        <a href="/kho-khan-va-kinh-nghiem-hoc-java/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/java/">Java</a>,&nbsp;<a href="/tags/kinh-nghiem/">Kinh-Nghiem</a>,&nbsp;<a href="/tags/kh%C3%B3-kh%C4%83n/">Khó-Khăn</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/js-frameworks-react-vue/">React vs Vue: Lựa chọn framework frontend</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" alt="React vs Vue" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>So sánh ngắn gọn giữa React và Vue: cả hai đều mạnh, nhưng khác nhau về triết lý, cộng đồng và cách tiếp cận.</p>
+<h3 id="react">React</h3>
+<ul>
+<li>Thư viện UI với hệ sinh thái lớn, JSX, linh hoạt cho ứng dụng phức tạp.</li>
+</ul>
+<h3 id="vue">Vue</h3>
+<ul>
+<li>Dễ học hơn, templates rõ ràng, phù hợp cho dự án vừa và nhỏ.</li>
+</ul>
+<p>Lời khuyên: chọn theo yêu cầu dự án và đội ngũ.</p></div><div class="post-footer">
+        <a href="/js-frameworks-react-vue/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/javascript/">Javascript</a>,&nbsp;<a href="/tags/react/">React</a>,&nbsp;<a href="/tags/vue/">Vue</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/spring-boot-intro/">Spring Boot cơ bản: Xây dựng REST API nhanh chóng</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1600&auto=format&fit=crop" alt="Spring Boot" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>Spring Boot giúp khởi tạo ứng dụng Java với cấu hình tối thiểu. Đây là hướng dẫn tạo REST API đầu tiên.</p>
+<h3 id="1-khởi-tạo-project">1. Khởi tạo project</h3>
+<ul>
+<li>Dùng Spring Initializr hoặc start.spring.io, chọn Web, Lombok (tùy), JPA nếu cần DB.</li>
+</ul>
+<h3 id="2-controller-mẫu">2. Controller mẫu</h3>
+
+<pre><code class="language-java">@RestController
+public class HelloController {
+    @GetMapping("/api/hello")
+    public String hello() {
+        return "Hello from Spring Boot";
+    }
+}</code></pre>
+<h3 id="3-kết-nối-database">3. Kết nối database</h3>
+<ul>
+<li>Sử dụng Spring Data JPA và cấu hình datasource trong application.properties.</li>
+</ul>
+<p>Spring Boot phù hợp cho microservices và ứng dụng doanh nghiệp nhỏ.</p></div><div class="post-footer">
+        <a href="/spring-boot-intro/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/java/">Java</a>,&nbsp;<a href="/tags/spring-boot/">Spring-Boot</a>,&nbsp;<a href="/tags/rest/">Rest</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/java-performance-profiling/">Tối ưu hiệu năng Java: Profiling và best practices</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" alt="Java performance" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>Hướng dẫn sử dụng profiler, GC tuning và các kỹ thuật tối ưu mã Java cho ứng dụng doanh nghiệp.</p>
+<h3 id="công-cụ-profiler">Công cụ profiler</h3>
+<ul>
+<li>VisualVM, YourKit, Java Flight Recorder.</li>
+</ul>
+<h3 id="best-practices">Best practices</h3>
+<ul>
+<li>Tránh tạo object không cần thiết, sử dụng các collection phù hợp, tối ưu SQL.</li>
+</ul></div><div class="post-footer">
+        <a href="/java-performance-profiling/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/java/">Java</a>,&nbsp;<a href="/tags/performance/">Performance</a>,&nbsp;<a href="/tags/profiling/">Profiling</a></div></div>
+</article><ul class="pagination"><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/">1</a>
+                    </span>
+                </li><li class="page-item active">
+                    <span class="page-link">
+                        <a href="/page/2/">2</a>
+                    </span>
+                </li></ul></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.151.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Le Ngoc Tuan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/typeit/index.umd.js"></script><script>window.config={"data":{"id-1":"Xin chào, chào mừng đến với blog của tôi"},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":20,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script></body>
+</html>

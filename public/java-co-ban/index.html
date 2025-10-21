@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Java cơ bản: Bắt đầu nhanh và cấu trúc dự án - MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:1313/java-co-ban/">
+  <meta property="og:site_name" content="MyBlog">
+  <meta property="og:title" content="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án">
+  <meta property="og:description" content="Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.
+1. Cài đặt Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME. Dùng Maven hoặc Gradle để quản lý phụ thuộc. 2. Cấu trúc dự án tham khảo (Maven) my-app/├─ src/main/java/com/example/app│ └─ App.java├─ src/test/java└─ pom.xml3. Nguyên tắc OOP cơ bản Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng. Ví dụ lớp đơn giản: public class Hello {public static void main(String[] args) {System.out.println(&#34;Hello, Java!&#34;);}}4. Mẹo thực hành Viết unit test sớm (JUnit / Mockito). Sử dụng linter/formatter và tuân theo chuẩn đặt tên. 5. Tài nguyên tham khảo Oracle Java docs, Baeldung, StackOverflow. Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-21T00:00:00+00:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Cơ Bản">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án">
+  <meta name="twitter:description" content="Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.
+1. Cài đặt Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME. Dùng Maven hoặc Gradle để quản lý phụ thuộc. 2. Cấu trúc dự án tham khảo (Maven) my-app/├─ src/main/java/com/example/app│ └─ App.java├─ src/test/java└─ pom.xml3. Nguyên tắc OOP cơ bản Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng. Ví dụ lớp đơn giản: public class Hello {public static void main(String[] args) {System.out.println(&#34;Hello, Java!&#34;);}}4. Mẹo thực hành Viết unit test sớm (JUnit / Mockito). Sử dụng linter/formatter và tuân theo chuẩn đặt tên. 5. Tài nguyên tham khảo Oracle Java docs, Baeldung, StackOverflow. Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.">
+<meta name="application-name" content="MyBlog">
+<meta name="apple-mobile-web-app-title" content="MyBlog">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/java-co-ban/" /><link rel="prev" href="http://localhost:1313/java-streams-collections/" /><link rel="next" href="http://localhost:1313/huong-dan-hugo/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Java cơ bản: Bắt đầu nhanh và cấu trúc dự án",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/java-co-ban\/"
+        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, cơ bản","wordcount":  173 ,
+        "url": "http:\/\/localhost:1313\/java-co-ban\/","datePublished": "2025-10-21T00:00:00+00:00","dateModified": "2025-10-21T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "http:\/\/localhost:1313\/images\/portrait.jpg"},"author": {
+                "@type": "Person",
+                "name": "Le Ngoc Tuan"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="MyBlog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>My Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/Tuan0204/lengoctuanblog.git" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Tìm kiếm bài viết..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/java-co-ban/" selected>English</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="MyBlog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>My Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Tìm kiếm bài viết..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/Tuan0204/lengoctuanblog.git" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/java-co-ban/" selected>English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-category">included in <a href="/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-10-21">2025-10-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;173 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-cài-đặt">1. Cài đặt</a></li>
+        <li><a href="#2-cấu-trúc-dự-án-tham-khảo-maven">2. Cấu trúc dự án tham khảo (Maven)</a></li>
+        <li><a href="#3-nguyên-tắc-oop-cơ-bản">3. Nguyên tắc OOP cơ bản</a></li>
+        <li><a href="#4-mẹo-thực-hành">4. Mẹo thực hành</a></li>
+        <li><a href="#5-tài-nguyên-tham-khảo">5. Tài nguyên tham khảo</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1526378728711-3b3f5d9f1f9b?q=80&w=1600&auto=format&fit=crop" alt="Java programming" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
+<p>Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.</p>
+<h3 id="1-cài-đặt">1. Cài đặt</h3>
+<ul>
+<li>Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME.</li>
+<li>Dùng Maven hoặc Gradle để quản lý phụ thuộc.</li>
+</ul>
+<h3 id="2-cấu-trúc-dự-án-tham-khảo-maven">2. Cấu trúc dự án tham khảo (Maven)</h3>
+
+<pre><code class="language-plaintext">my-app/
+├─ src/main/java/com/example/app
+│  └─ App.java
+├─ src/test/java
+└─ pom.xml</code></pre>
+<h3 id="3-nguyên-tắc-oop-cơ-bản">3. Nguyên tắc OOP cơ bản</h3>
+<ul>
+<li>Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng.</li>
+<li>Ví dụ lớp đơn giản:</li>
+</ul>
+
+<pre><code class="language-java">public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}</code></pre>
+<h3 id="4-mẹo-thực-hành">4. Mẹo thực hành</h3>
+<ul>
+<li>Viết unit test sớm (JUnit / Mockito).</li>
+<li>Sử dụng linter/formatter và tuân theo chuẩn đặt tên.</li>
+</ul>
+<h3 id="5-tài-nguyên-tham-khảo">5. Tài nguyên tham khảo</h3>
+<ul>
+<li>Oracle Java docs, Baeldung, StackOverflow.</li>
+</ul>
+<p>Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-10-21</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/java-co-ban/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:1313/java-co-ban/" data-title="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án" data-via="xxxx" data-hashtags="java,cơ bản"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:1313/java-co-ban/" data-title="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/java-co-ban/" data-hashtag="java"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/java-co-ban/" data-title="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/java-co-ban/" data-title="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/java-co-ban/" data-title="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:1313/java-co-ban/" data-title="Java cơ bản: Bắt đầu nhanh và cấu trúc dự án" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a1313%2fjava-co-ban%2f&amp;text=Java%20c%c6%a1%20b%e1%ba%a3n%3a%20B%e1%ba%aft%20%c4%91%e1%ba%a7u%20nhanh%20v%c3%a0%20c%e1%ba%a5u%20tr%c3%bac%20d%e1%bb%b1%20%c3%a1n" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/java/">Java</a>,&nbsp;<a href="/tags/c%C6%A1-b%E1%BA%A3n/">Cơ Bản</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/java-streams-collections/" class="prev" rel="prev" title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Java Streams và Collections: Xử lý dữ liệu hiệu quả</a>
+            <a href="/huong-dan-hugo/" class="next" rel="next" title="Hướng dẫn sử dụng Hugo cho blog cá nhân">Hướng dẫn sử dụng Hugo cho blog cá nhân<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.151.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Le Ngoc Tuan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script>window.config={"comment":{},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":20,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body>
+</html>

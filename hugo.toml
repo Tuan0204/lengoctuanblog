@@ -244,7 +244,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
+      avatarURL = "static/images/portrait.jpg"
   # title shown in home page (HTML format is supported)
   # 主页显示的网站标题 (支持 HTML 格式)
   title = "MyBlog"
@@ -270,7 +270,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
+    GitHub = "https://github.com/Tuan0204/lengoctuanblog.git"
     Linkedin = ""
     X = ""
     Instagram = ""
@@ -613,7 +613,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # 出版者信息
       [params.page.seo.publisher]
         name = "xxxx"
-        logoUrl = "/images/avatar.png"
+        logoUrl = "/images/portrait.jpg"
 
   # TypeIt config
   # TypeIt 配置
@@ -846,7 +846,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/Tuan0204/lengoctuanblog.git"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -863,7 +863,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/images/portrait.jpg"
           title = "MyBlog"
           subtitle = "Xin chào, chào mừng đến với blog của tôi"
           typeit = true
@@ -937,7 +937,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/Tuan0204/lengoctuanblog.git"
         title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]

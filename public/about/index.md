@@ -1,13 +1,25 @@
 # Giới thiệu
 
+<div class="about-portrait" style="float:right;max-width:320px;margin:0 0 1rem 1rem;">
+  <img src="/images/portrait.jpg" alt="Ảnh chân dung Lê Ngọc Tuấn" style="width:100%;height:auto;border-radius:8px;" />
+  <p style="font-size:0.95rem;margin-top:0.4rem;"></p>
+</div>
+
 
 # LÊ NGỌC TUẤN
 **Công nghệ thông tin**
+
 
 ## Thông tin liên hệ
 - **SĐT:** 0779478666
 - **Email:** lengoctuanltk@gmail.com
 - **Địa chỉ:** 220/15 Đường Nguyễn Văn Khối, TP Hồ Chí Minh
+
+
+
+
+
+
 
 ## Học vấn
 

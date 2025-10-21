@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring-Boot on MyBlog</title>
+    <link>http://localhost:1313/tags/spring-boot/</link>
+    <description>Recent content in Spring-Boot on MyBlog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot cơ bản: Xây dựng REST API nhanh chóng</title>
+      <link>http://localhost:1313/spring-boot-intro/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spring-boot-intro/</guid>
+      <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Spring Boot&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Spring Boot giúp khởi tạo ứng dụng Java với cấu hình tối thiểu. Đây là hướng dẫn tạo REST API đầu tiên.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-khởi-tạo-project&#34;&gt;1. Khởi tạo project&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dùng Spring Initializr hoặc start.spring.io, chọn Web, Lombok (tùy), JPA nếu cần DB.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-controller-mẫu&#34;&gt;2. Controller mẫu&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;@RestController&#xD;&#xA;public class HelloController {&#xD;&#xA;    @GetMapping(&#34;/api/hello&#34;)&#xD;&#xA;    public String hello() {&#xD;&#xA;        return &#34;Hello from Spring Boot&#34;;&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;3-kết-nối-database&#34;&gt;3. Kết nối database&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sử dụng Spring Data JPA và cấu hình datasource trong application.properties.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Spring Boot phù hợp cho microservices và ứng dụng doanh nghiệp nhỏ.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

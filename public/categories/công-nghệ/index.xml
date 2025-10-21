@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 23:15:43 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/c%C3%B4ng-ngh%E1%BB%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chào mừng đến với blog của tôi</title>
+      <title>.Chào mừng đến với blog của tôi</title>
       <link>http://localhost:1313/chao-mung/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/chao-mung/</guid>
-      <description>&lt;h1 id=&#34;chào-mừng&#34;&gt;Chào mừng!&lt;/h1&gt;&#xA;&lt;p&gt;Đây là bài viết mẫu đầu tiên trên blog Hugo của bạn. Bạn có thể chỉnh sửa nội dung này hoặc tạo thêm các bài viết mới tại thư mục &lt;code&gt;content/posts/&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hướng-dẫn&#34;&gt;Hướng dẫn&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sử dụng Markdown để viết bài.&lt;/li&gt;&#xA;&lt;li&gt;Thêm các trường &lt;code&gt;categories&lt;/code&gt; và &lt;code&gt;tags&lt;/code&gt; để phân loại bài viết.&lt;/li&gt;&#xA;&lt;li&gt;Đặt &lt;code&gt;draft: false&lt;/code&gt; để bài viết hiển thị công khai.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Chúc bạn xây dựng blog thành công!&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;xin-chào&#34;&gt;Xin chào&lt;/h1&gt;&#xA;&lt;p&gt;Đây là blog của tôi chia sẻ kinh nghiệm về việc học java.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

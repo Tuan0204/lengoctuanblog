@@ -1,20 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cơ Bản on MyBlog</title>
-    <link>http://localhost:1313/lengoctuanblog/tags/c%C6%A1-b%E1%BA%A3n/</link>
-    <description>Recent content in Cơ Bản on MyBlog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/lengoctuanblog/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</title>
-      <link>http://localhost:1313/lengoctuanblog/java-co-ban/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/java-co-ban/</guid>
-      <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1526378728711-3b3f5d9f1f9b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Java programming&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-cài-đặt&#34;&gt;1. Cài đặt&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME.&lt;/li&gt;&#xA;&lt;li&gt;Dùng Maven hoặc Gradle để quản lý phụ thuộc.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-cấu-trúc-dự-án-tham-khảo-maven&#34;&gt;2. Cấu trúc dự án tham khảo (Maven)&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-plaintext&#34;&gt;my-app/&#xD;&#xA;├─ src/main/java/com/example/app&#xD;&#xA;│  └─ App.java&#xD;&#xA;├─ src/test/java&#xD;&#xA;└─ pom.xml&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;3-nguyên-tắc-oop-cơ-bản&#34;&gt;3. Nguyên tắc OOP cơ bản&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng.&lt;/li&gt;&#xA;&lt;li&gt;Ví dụ lớp đơn giản:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class Hello {&#xD;&#xA;    public static void main(String[] args) {&#xD;&#xA;        System.out.println(&#34;Hello, Java!&#34;);&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;4-mẹo-thực-hành&#34;&gt;4. Mẹo thực hành&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Viết unit test sớm (JUnit / Mockito).&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng linter/formatter và tuân theo chuẩn đặt tên.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;5-tài-nguyên-tham-khảo&#34;&gt;5. Tài nguyên tham khảo&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Oracle Java docs, Baeldung, StackOverflow.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cơ Bản on MyBlog</title><link>https://tuan0204.github.io/lengoctuanblog/tags/c%C6%A1-b%E1%BA%A3n/</link><description>Recent content in Cơ Bản on MyBlog</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate><atom:link href="https://tuan0204.github.io/lengoctuanblog/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml"/><item><title>Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</title><link>https://tuan0204.github.io/lengoctuanblog/java-co-ban/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://tuan0204.github.io/lengoctuanblog/java-co-ban/</guid><description>&lt;p style="text-align:center;margin-bottom:1rem;"&gt;&lt;img src="https://images.unsplash.com/photo-1526378728711-3b3f5d9f1f9b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Java programming" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/&gt;&lt;/p&gt;
+&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.&lt;/p&gt;
+&lt;h3 id="1-cài-đặt"&gt;1. Cài đặt&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME.&lt;/li&gt;
+&lt;li&gt;Dùng Maven hoặc Gradle để quản lý phụ thuộc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-cấu-trúc-dự-án-tham-khảo-maven"&gt;2. Cấu trúc dự án tham khảo (Maven)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class="language-plaintext"&gt;my-app/
+├─ src/main/java/com/example/app
+│ └─ App.java
+├─ src/test/java
+└─ pom.xml&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="3-nguyên-tắc-oop-cơ-bản"&gt;3. Nguyên tắc OOP cơ bản&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng.&lt;/li&gt;
+&lt;li&gt;Ví dụ lớp đơn giản:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class="language-java"&gt;public class Hello {
+ public static void main(String[] args) {
+ System.out.println("Hello, Java!");
+ }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="4-mẹo-thực-hành"&gt;4. Mẹo thực hành&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết unit test sớm (JUnit / Mockito).&lt;/li&gt;
+&lt;li&gt;Sử dụng linter/formatter và tuân theo chuẩn đặt tên.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="5-tài-nguyên-tham-khảo"&gt;5. Tài nguyên tham khảo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oracle Java docs, Baeldung, StackOverflow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.&lt;/p&gt;</description></item></channel></rss>

@@ -1,140 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-	<meta name="generator" content="Hugo 0.151.2"><script src="/lengoctuanblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=lengoctuanblog/livereload" data-no-instant defer></script>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:1313/lengoctuanblog/">
-  <meta property="og:site_name" content="MyBlog">
-  <meta property="og:title" content="Xin chào, chào mừng đến với blog của tôi">
-  <meta property="og:description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-    <meta property="og:image" content="http://localhost:1313/logo.png">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/logo.png">
-  <meta name="twitter:title" content="Xin chào, chào mừng đến với blog của tôi">
-  <meta name="twitter:description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.">
-<meta name="application-name" content="MyBlog">
-<meta name="apple-mobile-web-app-title" content="MyBlog">
-<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/lengoctuanblog/" /><link rel="alternate" href="/lengoctuanblog/index.xml" type="application/rss+xml" title="MyBlog">
-    <link rel="feed" href="/lengoctuanblog/index.xml" type="application/rss+xml" title="MyBlog"><link rel="stylesheet" href="/lengoctuanblog/css/style.min.css"><link rel="preload" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lengoctuanblog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/lengoctuanblog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "url": "http:\/\/localhost:1313\/lengoctuanblog\/","inLanguage": "en","author": {
-                "@type": "Person",
-                "name": "Le Ngoc Tuan"
-            },"description": "Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.","image": "http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png","thumbnailUrl": "http:\/\/localhost:1313\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "MyBlog"
-    }
-    </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
-          const query = window.matchMedia('(prefers-color-scheme: dark)');
-          function applyTheme() {
-            let theme = window.localStorage?.getItem('theme') || 'auto';
-            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
-            document.body.setAttribute('theme', isDark? 'dark' : 'light');
-            document.body.setAttribute('cfg-theme', theme);
-          }
-
-          applyTheme();
-          query.addEventListener('change', applyTheme);
-        </script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/lengoctuanblog/" title="MyBlog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>My Blog</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/lengoctuanblog/posts/"> Posts </a><a class="menu-item" href="/lengoctuanblog/tags/"> Tags </a><a class="menu-item" href="/lengoctuanblog/categories/"> Categories </a><a class="menu-item" href="/lengoctuanblog/categories/documentation/"> Docs </a><a class="menu-item" href="/lengoctuanblog/about/"> About </a><a class="menu-item" href="https://github.com/Tuan0204/lengoctuanblog.git" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Tìm kiếm bài viết..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/lengoctuanblog/" selected>English</option><option value="/lengoctuanblog/zh-cn/">简体中文</option></select>
-                </a></div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/lengoctuanblog/" title="MyBlog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>My Blog</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Tìm kiếm bài viết..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        Cancel
-                    </a>
-                </div><a class="menu-item" href="/lengoctuanblog/posts/" title="">Posts</a><a class="menu-item" href="/lengoctuanblog/tags/" title="">Tags</a><a class="menu-item" href="/lengoctuanblog/categories/" title="">Categories</a><a class="menu-item" href="/lengoctuanblog/categories/documentation/" title="">Docs</a><a class="menu-item" href="/lengoctuanblog/about/" title="">About</a><a class="menu-item" href="https://github.com/Tuan0204/lengoctuanblog.git" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/lengoctuanblog/" selected>English</option><option value="/lengoctuanblog/zh-cn/">简体中文</option></select>
-                </a></div>
-    </div>
-</header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/lengoctuanblog/posts/" title="Posts"><img
-        class="lazyload"
-        src="/lengoctuanblog/svg/loading.min.svg"
-        data-src="/images/portrait.jpg"
-        data-srcset="/images/portrait.jpg, /images/portrait.jpg 1.5x, /images/portrait.jpg 2x"
-        data-sizes="auto"
-        alt="/images/portrait.jpg"
-        title="/images/portrait.jpg" /></a></div><h1 class="home-title">MyBlog</h1><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/xxxx" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://x.com/xxxx" title="X" target="_blank" rel="noopener noreffer me"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="https://www.instagram.com/xxxx" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="https://facebook.com/xxxx" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw" aria-hidden="true"></i></a><a href="https://t.me/xxxx" title="Telegram" target="_blank" rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw" aria-hidden="true"></i></a><a href="https://www.youtube.com/user/xxxx" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube fa-fw" aria-hidden="true"></i></a><a href="https://mastodon.technology/@xxxx" title="Mastodon" target="_blank" rel="noopener noreffer me"><i class="fab fa-mastodon fa-fw" aria-hidden="true"></i></a><a href="https://huggingface.co/xxxx" title="Hugging Face" target="_blank" rel="noopener noreffer me"><i data-svg-src="/lengoctuanblog/lib/simple-icons/icons/huggingface.min.svg" aria-hidden="true"></i></a><a href="https://www.threads.net/@xxxx" title="Threads" target="_blank" rel="noopener noreffer me"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="tel:555-555-555" title="Phone" rel="me"><i class="fas fa-phone fa-fw" aria-hidden="true"></i></a><a href="mailto:xxxx@xxxx.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div></div>
-<div class="single">
-                <div class="content" id="content"><p>hhhhhh</p>
-</div>
-            </div><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/lengoctuanblog/chao-mung/">.Chào mừng đến với blog của tôi</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/lengoctuanblog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/lengoctuanblog/categories/c%C3%B4ng-ngh%E1%BB%87/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Công Nghệ</a>&nbsp;<a href="/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><h1 id="xin-chào">Xin chào</h1>
-<p>Đây là blog của tôi chia sẻ kinh nghiệm về việc học java.</p></div><div class="post-footer">
-        <a href="/lengoctuanblog/chao-mung/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/lengoctuanblog/tags/hugo/">Hugo</a>,&nbsp;<a href="/lengoctuanblog/tags/blog/">Blog</a>,&nbsp;<a href="/lengoctuanblog/tags/m%E1%BA%ABu/">Mẫu</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/lengoctuanblog/js-async-await/">Async/Await trong JavaScript: Quản lý bất đồng bộ dễ dàng</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/lengoctuanblog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?q=80&w=1600&auto=format&fit=crop" alt="Async JavaScript" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
-<p>Async/Await là một cú pháp để viết mã bất đồng bộ trông giống như đồng bộ, dựa trên Promise.</p>
-<h3 id="ví-dụ">Ví dụ</h3>
-
-<pre><code class="language-javascript">async function fetchData() {
+<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.151.2"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>MyBlog</title><meta name=Description content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="https://tuan0204.github.io/lengoctuanblog/"><meta property="og:site_name" content="MyBlog"><meta property="og:title" content="Xin chào, chào mừng đến với blog của tôi"><meta property="og:description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta property="og:image" content="https://tuan0204.github.io/logo.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://tuan0204.github.io/logo.png"><meta name=twitter:title content="Xin chào, chào mừng đến với blog của tôi"><meta name=twitter:description content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta name=application-name content="MyBlog"><meta name=apple-mobile-web-app-title content="MyBlog"><meta name=referrer content="no-referrer"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://tuan0204.github.io/lengoctuanblog/><link rel=alternate href=/lengoctuanblog/index.xml type=application/rss+xml title=MyBlog><link rel=feed href=/lengoctuanblog/index.xml type=application/rss+xml title=MyBlog><link rel=stylesheet href=/lengoctuanblog/css/style.min.css><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","url":"https:\/\/tuan0204.github.io\/lengoctuanblog\/","inLanguage":"en","author":{"@type":"Person","name":"Le Ngoc Tuan"},"description":"Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.","image":"https:\/\/tuan0204.github.io\/images\/Apple-Devices-Preview.png","thumbnailUrl":"https:\/\/tuan0204.github.io\/images\/screenshot.png","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name":"MyBlog"}</script></head><body data-header-desktop=fixed data-header-mobile=auto><script>const query=window.matchMedia("(prefers-color-scheme: dark)");function applyTheme(){let e=window.localStorage?.getItem("theme")||"auto",t=e==="dark"||e==="auto"&&query.matches;document.body.setAttribute("theme",t?"dark":"light"),document.body.setAttribute("cfg-theme",e)}applyTheme(),query.addEventListener("change",applyTheme)</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/lengoctuanblog/ title=MyBlog><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>My Blog</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/lengoctuanblog/posts/>Posts </a><a class=menu-item href=/lengoctuanblog/tags/>Tags </a><a class=menu-item href=/lengoctuanblog/categories/>Categories </a><a class=menu-item href=/lengoctuanblog/categories/documentation/>Docs </a><a class=menu-item href=/lengoctuanblog/about/>About </a><a class=menu-item href=https://github.com/Tuan0204/lengoctuanblog.git title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Tìm kiếm bài viết..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
+</span></span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="menu-item language" title="Select Language"><i class="fa fa-globe fa-fw" aria-hidden=true></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/lengoctuanblog/ selected>English</option><option value=/lengoctuanblog/zh-cn/>简体中文</option></select></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/lengoctuanblog/ title=MyBlog><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>My Blog</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder="Tìm kiếm bài viết..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancel</a></div><a class=menu-item href=/lengoctuanblog/posts/ title>Posts</a><a class=menu-item href=/lengoctuanblog/tags/ title>Tags</a><a class=menu-item href=/lengoctuanblog/categories/ title>Categories</a><a class=menu-item href=/lengoctuanblog/categories/documentation/ title>Docs</a><a class=menu-item href=/lengoctuanblog/about/ title>About</a><a class=menu-item href=https://github.com/Tuan0204/lengoctuanblog.git title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i></a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class=menu-item title="Select Language"><i class="fa fa-globe fa-fw" aria-hidden=true></i>
+<select class=language-select onchange="location=this.value"><option value=/lengoctuanblog/ selected>English</option><option value=/lengoctuanblog/zh-cn/>简体中文</option></select></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class="page home" data-home=posts><div class=home-profile><div class=home-avatar><a href=/lengoctuanblog/posts/ title=Posts><img class=lazyload src=/lengoctuanblog/svg/loading.min.svg data-src=/images/portrait.jpg data-srcset="/images/portrait.jpg, /images/portrait.jpg 1.5x, /images/portrait.jpg 2x" data-sizes=auto alt=/images/portrait.jpg title=/images/portrait.jpg></a></div><h1 class=home-title>MyBlog</h1><div class=home-subtitle><div id=id-1 class=typeit></div></div><div class=links><a href=https://github.com/xxxx title=GitHub target=_blank rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden=true></i></a><a href=https://x.com/xxxx title=X target=_blank rel="noopener noreffer me"><i class="fab fa-x-twitter fa-fw" aria-hidden=true></i></a><a href=https://www.instagram.com/xxxx title=Instagram target=_blank rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden=true></i></a><a href=https://facebook.com/xxxx title=facebook target=_blank rel="noopener noreffer me"><i class="fab fa-facebook fa-fw" aria-hidden=true></i></a><a href=https://t.me/xxxx title=Telegram target=_blank rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw" aria-hidden=true></i></a><a href=https://www.youtube.com/user/xxxx title=YouTube target=_blank rel="noopener noreffer me"><i class="fab fa-youtube fa-fw" aria-hidden=true></i></a><a href=https://mastodon.technology/@xxxx title=Mastodon target=_blank rel="noopener noreffer me"><i class="fab fa-mastodon fa-fw" aria-hidden=true></i></a><a href=https://huggingface.co/xxxx title="Hugging Face" target=_blank rel="noopener noreffer me"><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@15.14.0/icons/huggingface.svg aria-hidden=true></i></a><a href=https://www.threads.net/@xxxx title=Threads target=_blank rel="noopener noreffer me"><i class="fab fa-threads fa-fw" aria-hidden=true></i></a><a href=tel:555-555-555 title=Phone rel=me><i class="fas fa-phone fa-fw" aria-hidden=true></i></a><a href=mailto:xxxx@xxxx.com title=Email rel=me><i class="far fa-envelope fa-fw" aria-hidden=true></i></a><a href=/index.xml title=RSS target=_blank rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden=true></i></a></div></div><div class=single><div class=content id=content><p>hhhhhh</p></div></div><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline"><a href=/lengoctuanblog/chao-mung/>Chào mừng đến với blog của tôi</a></h1><div class=post-meta><span class=post-author><a href=mailto:lengoctuanltk@gmail.com title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Tuan Le</a></span>&nbsp;<span class=post-publish>published on <time datetime=2025-10-21>2025-10-21</time></span>&nbsp;<span class=post-category>included in <a href=/lengoctuanblog/categories/c%C3%B4ng-ngh%E1%BB%87/><i class="far fa-folder fa-fw" aria-hidden=true></i>Công Nghệ</a>&nbsp;<a href=/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/><i class="far fa-folder fa-fw" aria-hidden=true></i>Lập Trình</a></span></div><div class=content><h1 id=xin-chào>Xin chào</h1><p>Đây là blog của tôi chia sẻ kinh nghiệm về việc học java.</p></div><div class=post-footer><a href=/lengoctuanblog/chao-mung/>Read More</a><div class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/lengoctuanblog/tags/hugo/>Hugo</a>,&nbsp;<a href=/lengoctuanblog/tags/blog/>Blog</a>,&nbsp;<a href=/lengoctuanblog/tags/m%E1%BA%ABu/>Mẫu</a></div></div></article><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline"><a href=/lengoctuanblog/js-async-await/>Async/Await trong JavaScript: Quản lý bất đồng bộ dễ dàng</a></h1><div class=post-meta><span class=post-author><a href=/lengoctuanblog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Le Ngoc Tuan</a></span>&nbsp;<span class=post-publish>published on <time datetime=2025-10-21>2025-10-21</time></span>&nbsp;<span class=post-category>included in <a href=/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/><i class="far fa-folder fa-fw" aria-hidden=true></i>Lập Trình</a></span></div><div class=content><p style=text-align:center;margin-bottom:1rem><img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?q=80&w=1600&auto=format&fit=crop" alt="Async JavaScript" style=width:100%;max-width:1200px;height:auto;border-radius:8px></p><p>Async/Await là một cú pháp để viết mã bất đồng bộ trông giống như đồng bộ, dựa trên Promise.</p><h3 id=ví-dụ>Ví dụ</h3><pre><code class=language-javascript>async function fetchData() {
   try {
     const res = await fetch('https://api.example.com/data');
     const json = await res.json();
@@ -142,143 +19,12 @@
   } catch (err) {
     console.error(err);
   }
-}</code></pre>
-<p>Sử dụng async/await giúp xử lý lỗi dễ dàng hơn so với chuỗi .then/.catch.</p></div><div class="post-footer">
-        <a href="/lengoctuanblog/js-async-await/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/lengoctuanblog/tags/javascript/">Javascript</a>,&nbsp;<a href="/lengoctuanblog/tags/async-await/">Async-Await</a>,&nbsp;<a href="/lengoctuanblog/tags/promise/">Promise</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/lengoctuanblog/gioi-thieu-hugo/">Giới thiệu về Hugo</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/lengoctuanblog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/lengoctuanblog/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a>&nbsp;<a href="/lengoctuanblog/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div><div class="content"><h1 id="hugo-là-gì">Hugo là gì?</h1>
-<p>Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.</p>
-<p><img
-        class="lazyload"
-        src="/lengoctuanblog/svg/loading.min.svg"
-        data-src="/images/images.jpg"
-        data-srcset="/images/images.jpg, /images/images.jpg 1.5x, /images/images.jpg 2x"
-        data-sizes="auto"
-        alt="/images/images.jpg"
-        title="Logo Hugo" /></p>
-<p>Bạn có thể thêm hình ảnh vào bài viết bằng cú pháp Markdown như trên. Đảm bảo file ảnh đã được đặt đúng vị trí trong thư mục <code>static/images/</code>.</p>
-<h2 id="tính-năng-nổi-bật">Tính năng nổi bật</h2>
-<ul>
-<li>Tốc độ build cực nhanh</li>
-<li>Hỗ trợ Markdown</li>
-<li>Dễ dàng mở rộng với theme và plugin</li>
-</ul>
-<p>Hãy thử tạo thêm nhiều bài viết với hình ảnh để blog của bạn sinh động hơn!</p></div><div class="post-footer">
-        <a href="/lengoctuanblog/gioi-thieu-hugo/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/lengoctuanblog/tags/hugo/">Hugo</a>,&nbsp;<a href="/lengoctuanblog/tags/static-site/">Static Site</a>,&nbsp;<a href="/lengoctuanblog/tags/image/">Image</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/lengoctuanblog/hanh-trinh-hoc-java/">Hành trình học Java: Từ cơ bản đến ứng dụng thực tế</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/lengoctuanblog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/lengoctuanblog/categories/c%C3%A1-nh%C3%A2n/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Cá Nhân</a>&nbsp;<a href="/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Learning Java" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
-<p>Trong bài này, tôi chia sẻ hành trình học Java của mình: những bước khởi đầu, cột mốc quan trọng, và cách áp dụng vào các dự án thực tế.</p>
-<h3 id="bắt-đầu">Bắt đầu</h3>
-<ul>
-<li>Lý do chọn Java: ứng dụng doanh nghiệp, nhiều tài liệu, cộng đồng lớn.</li>
-<li>Tài nguyên ban đầu: sách Head First Java, tutorialspoint, Oracle docs.</li>
-</ul>
-<h3 id="cột-mốc-học-tập">Cột mốc học tập</h3>
-<ul>
-<li>Hiểu cú pháp cơ bản và OOP (1-2 tuần học cơ bản).</li>
-<li>Làm project nhỏ: quản lý sách/khách sạn để hiểu luồng dữ liệu và cấu trúc.</li>
-<li>Học công cụ: Maven/Gradle, Git, JUnit.</li>
-</ul>
-<h3 id="ứng-dụng-thực-tế">Ứng dụng thực tế</h3>
-<ul>
-<li>Dùng Spring Boot để xây dựng REST API.</li>
-<li>Kết nối SQL Server và triển khai migration.</li>
-</ul>
-<h3 id="bài-học-rút-ra">Bài học rút ra</h3>
-<ul>
-<li>Thực hành &gt; đọc: code nhiều project nhỏ.</li>
-<li>Học test và debug ngay từ đầu.</li>
-</ul>
-<p>Hy vọng hành trình này giúp bạn định hướng con đường học Java một cách rõ ràng và thiết thực.</p></div><div class="post-footer">
-        <a href="/lengoctuanblog/hanh-trinh-hoc-java/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/lengoctuanblog/tags/java/">Java</a>,&nbsp;<a href="/lengoctuanblog/tags/h%E1%BB%8Dc-t%E1%BA%ADp/">Học Tập</a>,&nbsp;<a href="/lengoctuanblog/tags/h%C3%A0nh-tr%C3%ACnh/">Hành-Trình</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/lengoctuanblog/huong-dan-hugo/">Hướng dẫn sử dụng Hugo cho blog cá nhân</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/lengoctuanblog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/lengoctuanblog/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a>&nbsp;<a href="/lengoctuanblog/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div><div class="content"><h1 id="hướng-dẫn-sử-dụng-hugo">Hướng dẫn sử dụng Hugo</h1>
-<p>Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.</p>
-<h2 id="tại-sao-chọn-hugo">Tại sao chọn Hugo?</h2>
-<ul>
-<li>Build cực nhanh</li>
-<li>Hỗ trợ Markdown</li>
-<li>Dễ mở rộng với theme</li>
-</ul>
-<h2 id="hình-ảnh-minh-họa">Hình ảnh minh họa</h2>
-<p><img
-        class="lazyload"
-        src="/lengoctuanblog/svg/loading.min.svg"
-        data-src="/images/hugo-static.png"
-        data-srcset="/images/hugo-static.png, /images/hugo-static.png 1.5x, /images/hugo-static.png 2x"
-        data-sizes="auto"
-        alt="/images/hugo-static.png"
-        title="Hugo Static Site" /></p>
-<p>Bạn có thể thêm nhiều bài viết với cùng tag/category để kiểm tra tính năng taxonomy của Hugo.</p></div><div class="post-footer">
-        <a href="/lengoctuanblog/huong-dan-hugo/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/lengoctuanblog/tags/hugo/">Hugo</a>,&nbsp;<a href="/lengoctuanblog/tags/static-site/">Static Site</a>,&nbsp;<a href="/lengoctuanblog/tags/image/">Image</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/lengoctuanblog/java-co-ban/">Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/lengoctuanblog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Le Ngoc Tuan</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-21">2025-10-21</time></span>&nbsp;<span class="post-category">included in <a href="/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Lập Trình</a></span></div><div class="content"><p style="text-align:center;margin-bottom:1rem;"><img src="https://images.unsplash.com/photo-1526378728711-3b3f5d9f1f9b?q=80&w=1600&auto=format&fit=crop" alt="Java programming" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/></p>
-<p>Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.</p>
-<h3 id="1-cài-đặt">1. Cài đặt</h3>
-<ul>
-<li>Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME.</li>
-<li>Dùng Maven hoặc Gradle để quản lý phụ thuộc.</li>
-</ul>
-<h3 id="2-cấu-trúc-dự-án-tham-khảo-maven">2. Cấu trúc dự án tham khảo (Maven)</h3>
-
-<pre><code class="language-plaintext">my-app/
+}</code></pre><p>Sử dụng async/await giúp xử lý lỗi dễ dàng hơn so với chuỗi .then/.catch.</p></div><div class=post-footer><a href=/lengoctuanblog/js-async-await/>Read More</a><div class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/lengoctuanblog/tags/javascript/>Javascript</a>,&nbsp;<a href=/lengoctuanblog/tags/async-await/>Async-Await</a>,&nbsp;<a href=/lengoctuanblog/tags/promise/>Promise</a></div></div></article><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline"><a href=/lengoctuanblog/gioi-thieu-hugo/>Giới thiệu về Hugo</a></h1><div class=post-meta><span class=post-author><a href=/lengoctuanblog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Le Ngoc Tuan</a></span>&nbsp;<span class=post-publish>published on <time datetime=2025-10-21>2025-10-21</time></span>&nbsp;<span class=post-category>included in <a href=/lengoctuanblog/categories/hugo/><i class="far fa-folder fa-fw" aria-hidden=true></i>Hugo</a>&nbsp;<a href=/lengoctuanblog/categories/blog/><i class="far fa-folder fa-fw" aria-hidden=true></i>Blog</a></span></div><div class=content><h1 id=hugo-là-gì>Hugo là gì?</h1><p>Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.</p><p><img class=lazyload src=/lengoctuanblog/svg/loading.min.svg data-src=/images/images.jpg data-srcset="/images/images.jpg, /images/images.jpg 1.5x, /images/images.jpg 2x" data-sizes=auto alt=/images/images.jpg title="Logo Hugo"></p><p>Bạn có thể thêm hình ảnh vào bài viết bằng cú pháp Markdown như trên. Đảm bảo file ảnh đã được đặt đúng vị trí trong thư mục <code>static/images/</code>.</p><h2 id=tính-năng-nổi-bật>Tính năng nổi bật</h2><ul><li>Tốc độ build cực nhanh</li><li>Hỗ trợ Markdown</li><li>Dễ dàng mở rộng với theme và plugin</li></ul><p>Hãy thử tạo thêm nhiều bài viết với hình ảnh để blog của bạn sinh động hơn!</p></div><div class=post-footer><a href=/lengoctuanblog/gioi-thieu-hugo/>Read More</a><div class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/lengoctuanblog/tags/hugo/>Hugo</a>,&nbsp;<a href=/lengoctuanblog/tags/static-site/>Static Site</a>,&nbsp;<a href=/lengoctuanblog/tags/image/>Image</a></div></div></article><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline"><a href=/lengoctuanblog/hanh-trinh-hoc-java/>Hành trình học Java: Từ cơ bản đến ứng dụng thực tế</a></h1><div class=post-meta><span class=post-author><a href=/lengoctuanblog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Le Ngoc Tuan</a></span>&nbsp;<span class=post-publish>published on <time datetime=2025-10-21>2025-10-21</time></span>&nbsp;<span class=post-category>included in <a href=/lengoctuanblog/categories/c%C3%A1-nh%C3%A2n/><i class="far fa-folder fa-fw" aria-hidden=true></i>Cá Nhân</a>&nbsp;<a href=/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/><i class="far fa-folder fa-fw" aria-hidden=true></i>Lập Trình</a></span></div><div class=content><p style=text-align:center;margin-bottom:1rem><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Learning Java" style=width:100%;max-width:1200px;height:auto;border-radius:8px></p><p>Trong bài này, tôi chia sẻ hành trình học Java của mình: những bước khởi đầu, cột mốc quan trọng, và cách áp dụng vào các dự án thực tế.</p><h3 id=bắt-đầu>Bắt đầu</h3><ul><li>Lý do chọn Java: ứng dụng doanh nghiệp, nhiều tài liệu, cộng đồng lớn.</li><li>Tài nguyên ban đầu: sách Head First Java, tutorialspoint, Oracle docs.</li></ul><h3 id=cột-mốc-học-tập>Cột mốc học tập</h3><ul><li>Hiểu cú pháp cơ bản và OOP (1-2 tuần học cơ bản).</li><li>Làm project nhỏ: quản lý sách/khách sạn để hiểu luồng dữ liệu và cấu trúc.</li><li>Học công cụ: Maven/Gradle, Git, JUnit.</li></ul><h3 id=ứng-dụng-thực-tế>Ứng dụng thực tế</h3><ul><li>Dùng Spring Boot để xây dựng REST API.</li><li>Kết nối SQL Server và triển khai migration.</li></ul><h3 id=bài-học-rút-ra>Bài học rút ra</h3><ul><li>Thực hành > đọc: code nhiều project nhỏ.</li><li>Học test và debug ngay từ đầu.</li></ul><p>Hy vọng hành trình này giúp bạn định hướng con đường học Java một cách rõ ràng và thiết thực.</p></div><div class=post-footer><a href=/lengoctuanblog/hanh-trinh-hoc-java/>Read More</a><div class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/lengoctuanblog/tags/java/>Java</a>,&nbsp;<a href=/lengoctuanblog/tags/h%E1%BB%8Dc-t%E1%BA%ADp/>Học Tập</a>,&nbsp;<a href=/lengoctuanblog/tags/h%C3%A0nh-tr%C3%ACnh/>Hành-Trình</a></div></div></article><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline"><a href=/lengoctuanblog/huong-dan-hugo/>Hướng dẫn sử dụng Hugo cho blog cá nhân</a></h1><div class=post-meta><span class=post-author><a href=/lengoctuanblog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Le Ngoc Tuan</a></span>&nbsp;<span class=post-publish>published on <time datetime=2025-10-21>2025-10-21</time></span>&nbsp;<span class=post-category>included in <a href=/lengoctuanblog/categories/hugo/><i class="far fa-folder fa-fw" aria-hidden=true></i>Hugo</a>&nbsp;<a href=/lengoctuanblog/categories/blog/><i class="far fa-folder fa-fw" aria-hidden=true></i>Blog</a></span></div><div class=content><h1 id=hướng-dẫn-sử-dụng-hugo>Hướng dẫn sử dụng Hugo</h1><p>Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.</p><h2 id=tại-sao-chọn-hugo>Tại sao chọn Hugo?</h2><ul><li>Build cực nhanh</li><li>Hỗ trợ Markdown</li><li>Dễ mở rộng với theme</li></ul><h2 id=hình-ảnh-minh-họa>Hình ảnh minh họa</h2><p><img class=lazyload src=/lengoctuanblog/svg/loading.min.svg data-src=/images/hugo-static.png data-srcset="/images/hugo-static.png, /images/hugo-static.png 1.5x, /images/hugo-static.png 2x" data-sizes=auto alt=/images/hugo-static.png title="Hugo Static Site"></p><p>Bạn có thể thêm nhiều bài viết với cùng tag/category để kiểm tra tính năng taxonomy của Hugo.</p></div><div class=post-footer><a href=/lengoctuanblog/huong-dan-hugo/>Read More</a><div class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/lengoctuanblog/tags/hugo/>Hugo</a>,&nbsp;<a href=/lengoctuanblog/tags/static-site/>Static Site</a>,&nbsp;<a href=/lengoctuanblog/tags/image/>Image</a></div></div></article><article class="single summary" itemscope itemtype=http://schema.org/Article><h1 class=single-title itemprop="name headline"><a href=/lengoctuanblog/java-co-ban/>Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</a></h1><div class=post-meta><span class=post-author><a href=/lengoctuanblog/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Le Ngoc Tuan</a></span>&nbsp;<span class=post-publish>published on <time datetime=2025-10-21>2025-10-21</time></span>&nbsp;<span class=post-category>included in <a href=/lengoctuanblog/categories/l%E1%BA%ADp-tr%C3%ACnh/><i class="far fa-folder fa-fw" aria-hidden=true></i>Lập Trình</a></span></div><div class=content><p style=text-align:center;margin-bottom:1rem><img src="https://images.unsplash.com/photo-1526378728711-3b3f5d9f1f9b?q=80&w=1600&auto=format&fit=crop" alt="Java programming" style=width:100%;max-width:1200px;height:auto;border-radius:8px></p><p>Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.</p><h3 id=1-cài-đặt>1. Cài đặt</h3><ul><li>Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME.</li><li>Dùng Maven hoặc Gradle để quản lý phụ thuộc.</li></ul><h3 id=2-cấu-trúc-dự-án-tham-khảo-maven>2. Cấu trúc dự án tham khảo (Maven)</h3><pre><code class=language-plaintext>my-app/
 ├─ src/main/java/com/example/app
 │  └─ App.java
 ├─ src/test/java
-└─ pom.xml</code></pre>
-<h3 id="3-nguyên-tắc-oop-cơ-bản">3. Nguyên tắc OOP cơ bản</h3>
-<ul>
-<li>Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng.</li>
-<li>Ví dụ lớp đơn giản:</li>
-</ul>
-
-<pre><code class="language-java">public class Hello {
+└─ pom.xml</code></pre><h3 id=3-nguyên-tắc-oop-cơ-bản>3. Nguyên tắc OOP cơ bản</h3><ul><li>Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng.</li><li>Ví dụ lớp đơn giản:</li></ul><pre><code class=language-java>public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello, Java!");
     }
-}</code></pre>
-<h3 id="4-mẹo-thực-hành">4. Mẹo thực hành</h3>
-<ul>
-<li>Viết unit test sớm (JUnit / Mockito).</li>
-<li>Sử dụng linter/formatter và tuân theo chuẩn đặt tên.</li>
-</ul>
-<h3 id="5-tài-nguyên-tham-khảo">5. Tài nguyên tham khảo</h3>
-<ul>
-<li>Oracle Java docs, Baeldung, StackOverflow.</li>
-</ul>
-<p>Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.</p></div><div class="post-footer">
-        <a href="/lengoctuanblog/java-co-ban/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/lengoctuanblog/tags/java/">Java</a>,&nbsp;<a href="/lengoctuanblog/tags/c%C6%A1-b%E1%BA%A3n/">Cơ Bản</a></div></div>
-</article><ul class="pagination"><li class="page-item active">
-                    <span class="page-link">
-                        <a href="/lengoctuanblog/">1</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/lengoctuanblog/page/2/">2</a>
-                    </span>
-                </li></ul></div></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.151.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/lengoctuanblog/" target="_blank">Le Ngoc Tuan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-        </div>
-    </footer></div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a>
-        </div>
-
-        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><script src="/lengoctuanblog/lib/autocomplete/autocomplete.min.js"></script><script src="/lengoctuanblog/lib/lunr/lunr.min.js"></script><script src="/lengoctuanblog/lib/lazysizes/lazysizes.min.js"></script><script src="/lengoctuanblog/lib/clipboard/clipboard.min.js"></script><script src="/lengoctuanblog/lib/sharer/sharer.min.js"></script><script src="/lengoctuanblog/lib/typeit/index.umd.js"></script><script>window.config={"data":{"id-1":"Xin chào, chào mừng đến với blog của tôi"},"search":{"highlightTag":"em","lunrIndexURL":"/lengoctuanblog/index.json","maxResultLength":20,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script src="/lengoctuanblog/js/theme.min.js"></script></body>
-</html>
+}</code></pre><h3 id=4-mẹo-thực-hành>4. Mẹo thực hành</h3><ul><li>Viết unit test sớm (JUnit / Mockito).</li><li>Sử dụng linter/formatter và tuân theo chuẩn đặt tên.</li></ul><h3 id=5-tài-nguyên-tham-khảo>5. Tài nguyên tham khảo</h3><ul><li>Oracle Java docs, Baeldung, StackOverflow.</li></ul><p>Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.</p></div><div class=post-footer><a href=/lengoctuanblog/java-co-ban/>Read More</a><div class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/lengoctuanblog/tags/java/>Java</a>,&nbsp;<a href=/lengoctuanblog/tags/c%C6%A1-b%E1%BA%A3n/>Cơ Bản</a></div></div></article><ul class=pagination><li class="page-item active"><span class=page-link><a href=/lengoctuanblog/>1</a></span></li><li class=page-item><span class=page-link><a href=/lengoctuanblog/page/2/>2</a></span></li></ul></div></div></main><footer class=footer><div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.151.2">Hugo</a> | Theme - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden=true></i> LoveIt</a></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2019 - 2025</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/lengoctuanblog/ target=_blank>Le Ngoc Tuan</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top"><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i></a></div><div id=fixed-buttons-hidden><a href=# id=view-comments class=fixed-button title="View Comments"><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><script src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script src=https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js></script><script src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js></script><script src=https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js></script><script>window.config={data:{"id-1":"Xin chào, chào mừng đến với blog của tôi"},search:{highlightTag:"em",lunrIndexURL:"/lengoctuanblog/index.json",maxResultLength:20,noResultsFound:"No results found",snippetLength:50,type:"lunr"},typeit:{cursorChar:"|",cursorSpeed:1e3,data:{"id-1":["id-1"]},duration:-1,speed:100}}</script><script src=/lengoctuanblog/js/theme.min.js></script></body></html>

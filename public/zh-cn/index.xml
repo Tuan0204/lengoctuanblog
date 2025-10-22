@@ -1,9 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>MyBlog</title>
-        <link>http://localhost:1313/lengoctuanblog/zh-cn/</link>
-        <description>Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-            <atom:link href="http://localhost:1313/lengoctuanblog/zh-cn/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MyBlog</title><link>https://tuan0204.github.io/lengoctuanblog/zh-cn/</link><description>Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm.</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://tuan0204.github.io/lengoctuanblog/zh-cn/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

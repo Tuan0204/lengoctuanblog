@@ -1,20 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Async-Await on MyBlog</title>
-    <link>http://localhost:1313/lengoctuanblog/tags/async-await/</link>
-    <description>Recent content in Async-Await on MyBlog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/lengoctuanblog/tags/async-await/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Async/Await trong JavaScript: Quản lý bất đồng bộ dễ dàng</title>
-      <link>http://localhost:1313/lengoctuanblog/js-async-await/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/js-async-await/</guid>
-      <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1505238680356-667803448bb6?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Async JavaScript&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Async/Await là một cú pháp để viết mã bất đồng bộ trông giống như đồng bộ, dựa trên Promise.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ví-dụ&#34;&gt;Ví dụ&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;async function fetchData() {&#xD;&#xA;  try {&#xD;&#xA;    const res = await fetch(&#39;https://api.example.com/data&#39;);&#xD;&#xA;    const json = await res.json();&#xD;&#xA;    return json;&#xD;&#xA;  } catch (err) {&#xD;&#xA;    console.error(err);&#xD;&#xA;  }&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;Sử dụng async/await giúp xử lý lỗi dễ dàng hơn so với chuỗi .then/.catch.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Async-Await on MyBlog</title><link>https://tuan0204.github.io/lengoctuanblog/tags/async-await/</link><description>Recent content in Async-Await on MyBlog</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate><atom:link href="https://tuan0204.github.io/lengoctuanblog/tags/async-await/index.xml" rel="self" type="application/rss+xml"/><item><title>Async/Await trong JavaScript: Quản lý bất đồng bộ dễ dàng</title><link>https://tuan0204.github.io/lengoctuanblog/js-async-await/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://tuan0204.github.io/lengoctuanblog/js-async-await/</guid><description>&lt;p style="text-align:center;margin-bottom:1rem;"&gt;&lt;img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Async JavaScript" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/&gt;&lt;/p&gt;
+&lt;p&gt;Async/Await là một cú pháp để viết mã bất đồng bộ trông giống như đồng bộ, dựa trên Promise.&lt;/p&gt;
+&lt;h3 id="ví-dụ"&gt;Ví dụ&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;async function fetchData() {
+ try {
+ const res = await fetch('https://api.example.com/data');
+ const json = await res.json();
+ return json;
+ } catch (err) {
+ console.error(err);
+ }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sử dụng async/await giúp xử lý lỗi dễ dàng hơn so với chuỗi .then/.catch.&lt;/p&gt;</description></item></channel></rss>

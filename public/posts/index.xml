@@ -1,23 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - MyBlog</title>
-        <link>https://example.com/posts/</link>
+        <link>http://localhost:1313/lengoctuanblog/posts/</link>
         <description>All Posts | MyBlog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Chào mừng đến với blog của tôi</title>
-    <link>https://example.com/chao-mung/</link>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/lengoctuanblog/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>.Chào mừng đến với blog của tôi</title>
+    <link>http://localhost:1313/lengoctuanblog/chao-mung/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/chao-mung/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/chao-mung/</guid>
     <description><![CDATA[<h1 id="xin-chào">Xin chào</h1>
 <p>Đây là blog của tôi chia sẻ kinh nghiệm về việc học java.</p>]]></description>
 </item>
 <item>
     <title>Async/Await trong JavaScript: Quản lý bất đồng bộ dễ dàng</title>
-    <link>https://example.com/js-async-await/</link>
+    <link>http://localhost:1313/lengoctuanblog/js-async-await/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/js-async-await/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/js-async-await/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>Async/Await là một cú pháp để viết mã bất đồng bộ trông giống như đồng bộ, dựa trên Promise.</p>
 <h3 id="ví-dụ">Ví dụ</h3>
@@ -35,10 +35,10 @@
 </item>
 <item>
     <title>Giới thiệu về Hugo</title>
-    <link>https://example.com/gioi-thieu-hugo/</link>
+    <link>http://localhost:1313/lengoctuanblog/gioi-thieu-hugo/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/gioi-thieu-hugo/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/gioi-thieu-hugo/</guid>
     <description><![CDATA[<h1 id="hugo-là-gì">Hugo là gì?</h1>
 <p>Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.</p>
 <p></p>
@@ -53,10 +53,10 @@
 </item>
 <item>
     <title>Hành trình học Java: Từ cơ bản đến ứng dụng thực tế</title>
-    <link>https://example.com/hanh-trinh-hoc-java/</link>
+    <link>http://localhost:1313/lengoctuanblog/hanh-trinh-hoc-java/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/hanh-trinh-hoc-java/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/hanh-trinh-hoc-java/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>Trong bài này, tôi chia sẻ hành trình học Java của mình: những bước khởi đầu, cột mốc quan trọng, và cách áp dụng vào các dự án thực tế.</p>
 <h3 id="bắt-đầu">Bắt đầu</h3>
@@ -84,10 +84,10 @@
 </item>
 <item>
     <title>Hướng dẫn sử dụng Hugo cho blog cá nhân</title>
-    <link>https://example.com/huong-dan-hugo/</link>
+    <link>http://localhost:1313/lengoctuanblog/huong-dan-hugo/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/huong-dan-hugo/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/huong-dan-hugo/</guid>
     <description><![CDATA[<h1 id="hướng-dẫn-sử-dụng-hugo">Hướng dẫn sử dụng Hugo</h1>
 <p>Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.</p>
 <h2 id="tại-sao-chọn-hugo">Tại sao chọn Hugo?</h2>
@@ -102,10 +102,10 @@
 </item>
 <item>
     <title>Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</title>
-    <link>https://example.com/java-co-ban/</link>
+    <link>http://localhost:1313/lengoctuanblog/java-co-ban/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/java-co-ban/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/java-co-ban/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.</p>
 <h3 id="1-cài-đặt">1. Cài đặt</h3>
@@ -144,10 +144,10 @@
 </item>
 <item>
     <title>Java Streams và Collections: Xử lý dữ liệu hiệu quả</title>
-    <link>https://example.com/java-streams-collections/</link>
+    <link>http://localhost:1313/lengoctuanblog/java-streams-collections/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/java-streams-collections/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/java-streams-collections/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.</p>
 <h3 id="ví-dụ-cơ-bản">Ví dụ cơ bản</h3>
@@ -166,10 +166,10 @@ List<String> filtered = names.stream()
 </item>
 <item>
     <title>JavaScript ES6&#43;: Tổng quan các tính năng quan trọng</title>
-    <link>https://example.com/js-es6-tong-quan/</link>
+    <link>http://localhost:1313/lengoctuanblog/js-es6-tong-quan/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/js-es6-tong-quan/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/js-es6-tong-quan/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>ES6 (ECMAScript 2015) giới thiệu nhiều tính năng làm thay đổi cách viết JavaScript hiện đại: let/const, arrow functions, classes, template literals, destructuring, modules, và Promise.</p>
 <h3 id="ví-dụ-arrow-function">Ví dụ arrow function</h3>
@@ -179,10 +179,10 @@ List<String> filtered = names.stream()
 </item>
 <item>
     <title>Khó khăn và kinh nghiệm khi học Java: Lời khuyên thực tế</title>
-    <link>https://example.com/kho-khan-va-kinh-nghiem-hoc-java/</link>
+    <link>http://localhost:1313/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/kho-khan-va-kinh-nghiem-hoc-java/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>Học Java không tránh khỏi những khó khăn — tôi đã trải qua nhiều thử thách và muốn chia sẻ cách mình vượt qua.</p>
 <h3 id="những-khó-khăn-thường-gặp">Những khó khăn thường gặp</h3>
@@ -206,10 +206,10 @@ List<String> filtered = names.stream()
 </item>
 <item>
     <title>React vs Vue: Lựa chọn framework frontend</title>
-    <link>https://example.com/js-frameworks-react-vue/</link>
+    <link>http://localhost:1313/lengoctuanblog/js-frameworks-react-vue/</link>
     <pubDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>Le Ngoc Tuan</author>
-    <guid>https://example.com/js-frameworks-react-vue/</guid>
+    <guid>http://localhost:1313/lengoctuanblog/js-frameworks-react-vue/</guid>
     <description><![CDATA[<p style="text-align:center;margin-bottom:1rem;"></p>
 <p>So sánh ngắn gọn giữa React và Vue: cả hai đều mạnh, nhưng khác nhau về triết lý, cộng đồng và cách tiếp cận.</p>
 <h3 id="react">React</h3>

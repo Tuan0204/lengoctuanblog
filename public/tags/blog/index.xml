@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on MyBlog</title>
-    <link>https://example.com/tags/blog/</link>
+    <link>http://localhost:1313/lengoctuanblog/tags/blog/</link>
     <description>Recent content in Blog on MyBlog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 22 Oct 2025 13:08:29 +0700</lastBuildDate>
-    <atom:link href="https://example.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/lengoctuanblog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chào mừng đến với blog của tôi</title>
-      <link>https://example.com/chao-mung/</link>
+      <title>.Chào mừng đến với blog của tôi</title>
+      <link>http://localhost:1313/lengoctuanblog/chao-mung/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/chao-mung/</guid>
+      <guid>http://localhost:1313/lengoctuanblog/chao-mung/</guid>
       <description>&lt;h1 id=&#34;xin-chào&#34;&gt;Xin chào&lt;/h1&gt;&#xA;&lt;p&gt;Đây là blog của tôi chia sẻ kinh nghiệm về việc học java.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -14,13 +14,7 @@ categories: ["Công nghệ", "Lập trình"]
 lightgallery: true
 ---
 
-# Chào mừng!
+# Xin chào 
 
-Đây là bài viết mẫu đầu tiên trên blog Hugo của bạn. Bạn có thể chỉnh sửa nội dung này hoặc tạo thêm các bài viết mới tại thư mục `content/posts/`.
+Đây là blog của tôi chia sẻ kinh nghiệm về việc học java. 
 
-## Hướng dẫn
-- Sử dụng Markdown để viết bài.
-- Thêm các trường `categories` và `tags` để phân loại bài viết.
-- Đặt `draft: false` để bài viết hiển thị công khai.
-
-Chúc bạn xây dựng blog thành công!

@@ -106,7 +106,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["portrait.jpg"]
+  images = ["/logo.png"]
 
   # Author config
   # 作者配置

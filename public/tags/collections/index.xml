@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Collections on MyBlog</title><link>https://tuan0204.github.io/lengoctuanblog/tags/collections/</link><description>Recent content in Collections on MyBlog</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate><atom:link href="https://tuan0204.github.io/lengoctuanblog/tags/collections/index.xml" rel="self" type="application/rss+xml"/><item><title>Java Streams và Collections: Xử lý dữ liệu hiệu quả</title><link>https://tuan0204.github.io/lengoctuanblog/java-streams-collections/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://tuan0204.github.io/lengoctuanblog/java-streams-collections/</guid><description>&lt;p style="text-align:center;margin-bottom:1rem;"&gt;&lt;img src="https://images.unsplash.com/photo-1532619675605-0f4e1f3d6f8b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Java streams" style="width:100%;max-width:1200px;height:auto;border-radius:8px;"/&gt;&lt;/p&gt;
-&lt;p&gt;Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.&lt;/p&gt;
-&lt;h3 id="ví-dụ-cơ-bản"&gt;Ví dụ cơ bản&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class="language-java"&gt;List&lt;String&gt; names = Arrays.asList("An", "Binh", "Cuong");
-List&lt;String&gt; filtered = names.stream()
- .filter(s -&gt; s.length() &gt; 3)
- .map(String::toUpperCase)
- .collect(Collectors.toList());&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id="tips-tối-ưu"&gt;Tips tối ưu&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Tránh dùng stream trong vòng lặp nặng, cân nhắc song song (parallelStream) khi tập dữ liệu lớn.&lt;/li&gt;
-&lt;li&gt;Sử dụng Collector để gom nhóm, tính toán tổng hợp.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Streams kết hợp Collections giúp code ngắn gọn, dễ hiểu và dễ maintain.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections on MyBlog</title>
+    <link>http://localhost:1313/lengoctuanblog/tags/collections/</link>
+    <description>Recent content in Collections on MyBlog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/lengoctuanblog/tags/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Streams và Collections: Xử lý dữ liệu hiệu quả</title>
+      <link>http://localhost:1313/lengoctuanblog/java-streams-collections/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lengoctuanblog/java-streams-collections/</guid>
+      <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1532619675605-0f4e1f3d6f8b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Java streams&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ví-dụ-cơ-bản&#34;&gt;Ví dụ cơ bản&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;List&lt;String&gt; names = Arrays.asList(&#34;An&#34;, &#34;Binh&#34;, &#34;Cuong&#34;);&#xD;&#xA;List&lt;String&gt; filtered = names.stream()&#xD;&#xA;    .filter(s -&gt; s.length() &gt; 3)&#xD;&#xA;    .map(String::toUpperCase)&#xD;&#xA;    .collect(Collectors.toList());&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;tips-tối-ưu&#34;&gt;Tips tối ưu&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tránh dùng stream trong vòng lặp nặng, cân nhắc song song (parallelStream) khi tập dữ liệu lớn.&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng Collector để gom nhóm, tính toán tổng hợp.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Streams kết hợp Collections giúp code ngắn gọn, dễ hiểu và dễ maintain.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

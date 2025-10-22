@@ -1,35 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Image on MyBlog</title><link>https://tuan0204.github.io/lengoctuanblog/tags/image/</link><description>Recent content in Image on MyBlog</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Oct 2025 23:15:43 +0700</lastBuildDate><atom:link href="https://tuan0204.github.io/lengoctuanblog/tags/image/index.xml" rel="self" type="application/rss+xml"/><item><title>Giới thiệu về Hugo</title><link>https://tuan0204.github.io/lengoctuanblog/gioi-thieu-hugo/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://tuan0204.github.io/lengoctuanblog/gioi-thieu-hugo/</guid><description>&lt;h1 id="hugo-là-gì"&gt;Hugo là gì?&lt;/h1&gt;
-&lt;p&gt;Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.&lt;/p&gt;
-&lt;p&gt;&lt;img
- class="lazyload"
- src="https://tuan0204.github.io/lengoctuanblog/svg/loading.min.svg"
- data-src="https://tuan0204.github.io/lengoctuanblog/images/images.jpg"
- data-srcset="https://tuan0204.github.io/lengoctuanblog/images/images.jpg, https://tuan0204.github.io/lengoctuanblog/images/images.jpg 1.5x, https://tuan0204.github.io/lengoctuanblog/images/images.jpg 2x"
- data-sizes="auto"
- alt="/images/images.jpg"
- title="Logo Hugo" /&gt;&lt;/p&gt;
-&lt;p&gt;Bạn có thể thêm hình ảnh vào bài viết bằng cú pháp Markdown như trên. Đảm bảo file ảnh đã được đặt đúng vị trí trong thư mục &lt;code&gt;static/images/&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="tính-năng-nổi-bật"&gt;Tính năng nổi bật&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tốc độ build cực nhanh&lt;/li&gt;
-&lt;li&gt;Hỗ trợ Markdown&lt;/li&gt;
-&lt;li&gt;Dễ dàng mở rộng với theme và plugin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hãy thử tạo thêm nhiều bài viết với hình ảnh để blog của bạn sinh động hơn!&lt;/p&gt;</description></item><item><title>Hướng dẫn sử dụng Hugo cho blog cá nhân</title><link>https://tuan0204.github.io/lengoctuanblog/huong-dan-hugo/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://tuan0204.github.io/lengoctuanblog/huong-dan-hugo/</guid><description>&lt;h1 id="hướng-dẫn-sử-dụng-hugo"&gt;Hướng dẫn sử dụng Hugo&lt;/h1&gt;
-&lt;p&gt;Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.&lt;/p&gt;
-&lt;h2 id="tại-sao-chọn-hugo"&gt;Tại sao chọn Hugo?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Build cực nhanh&lt;/li&gt;
-&lt;li&gt;Hỗ trợ Markdown&lt;/li&gt;
-&lt;li&gt;Dễ mở rộng với theme&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="hình-ảnh-minh-họa"&gt;Hình ảnh minh họa&lt;/h2&gt;
-&lt;p&gt;&lt;img
- class="lazyload"
- src="https://tuan0204.github.io/lengoctuanblog/svg/loading.min.svg"
- data-src="https://tuan0204.github.io/lengoctuanblog/images/hugo-static.png"
- data-srcset="https://tuan0204.github.io/lengoctuanblog/images/hugo-static.png, https://tuan0204.github.io/lengoctuanblog/images/hugo-static.png 1.5x, https://tuan0204.github.io/lengoctuanblog/images/hugo-static.png 2x"
- data-sizes="auto"
- alt="/images/hugo-static.png"
- title="Hugo Static Site" /&gt;&lt;/p&gt;
-&lt;p&gt;Bạn có thể thêm nhiều bài viết với cùng tag/category để kiểm tra tính năng taxonomy của Hugo.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image on MyBlog</title>
+    <link>http://localhost:1313/lengoctuanblog/tags/image/</link>
+    <description>Recent content in Image on MyBlog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 21 Oct 2025 23:15:43 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/lengoctuanblog/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu về Hugo</title>
+      <link>http://localhost:1313/lengoctuanblog/gioi-thieu-hugo/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lengoctuanblog/gioi-thieu-hugo/</guid>
+      <description>&lt;h1 id=&#34;hugo-là-gì&#34;&gt;Hugo là gì?&lt;/h1&gt;&#xA;&lt;p&gt;Hugo là một framework tạo website tĩnh nhanh, dễ sử dụng và rất phổ biến cho blog cá nhân.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/lengoctuanblog/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://localhost:1313/lengoctuanblog/images/images.jpg&#34;&#xD;&#xA;        data-srcset=&#34;http://localhost:1313/lengoctuanblog/images/images.jpg, http://localhost:1313/lengoctuanblog/images/images.jpg 1.5x, http://localhost:1313/lengoctuanblog/images/images.jpg 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/images/images.jpg&#34;&#xD;&#xA;        title=&#34;Logo Hugo&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bạn có thể thêm hình ảnh vào bài viết bằng cú pháp Markdown như trên. Đảm bảo file ảnh đã được đặt đúng vị trí trong thư mục &lt;code&gt;static/images/&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tính-năng-nổi-bật&#34;&gt;Tính năng nổi bật&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tốc độ build cực nhanh&lt;/li&gt;&#xA;&lt;li&gt;Hỗ trợ Markdown&lt;/li&gt;&#xA;&lt;li&gt;Dễ dàng mở rộng với theme và plugin&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hãy thử tạo thêm nhiều bài viết với hình ảnh để blog của bạn sinh động hơn!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hướng dẫn sử dụng Hugo cho blog cá nhân</title>
+      <link>http://localhost:1313/lengoctuanblog/huong-dan-hugo/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lengoctuanblog/huong-dan-hugo/</guid>
+      <description>&lt;h1 id=&#34;hướng-dẫn-sử-dụng-hugo&#34;&gt;Hướng dẫn sử dụng Hugo&lt;/h1&gt;&#xA;&lt;p&gt;Bài viết này giúp bạn bắt đầu với Hugo và cách tạo website tĩnh nhanh chóng.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tại-sao-chọn-hugo&#34;&gt;Tại sao chọn Hugo?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build cực nhanh&lt;/li&gt;&#xA;&lt;li&gt;Hỗ trợ Markdown&lt;/li&gt;&#xA;&lt;li&gt;Dễ mở rộng với theme&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hình-ảnh-minh-họa&#34;&gt;Hình ảnh minh họa&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/lengoctuanblog/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://localhost:1313/lengoctuanblog/images/hugo-static.png&#34;&#xD;&#xA;        data-srcset=&#34;http://localhost:1313/lengoctuanblog/images/hugo-static.png, http://localhost:1313/lengoctuanblog/images/hugo-static.png 1.5x, http://localhost:1313/lengoctuanblog/images/hugo-static.png 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/images/hugo-static.png&#34;&#xD;&#xA;        title=&#34;Hugo Static Site&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bạn có thể thêm nhiều bài viết với cùng tag/category để kiểm tra tính năng taxonomy của Hugo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

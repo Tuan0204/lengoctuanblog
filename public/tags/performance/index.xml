@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performance on MyBlog</title>
-    <link>http://localhost:1313/lengoctuanblog/tags/performance/</link>
+    <link>http://localhost:53955/lengoctuanblog/tags/performance/</link>
     <description>Recent content in Performance on MyBlog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/lengoctuanblog/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53955/lengoctuanblog/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tối ưu hiệu năng Java: Profiling và best practices</title>
-      <link>http://localhost:1313/lengoctuanblog/java-performance-profiling/</link>
+      <link>http://localhost:53955/lengoctuanblog/java-performance-profiling/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/java-performance-profiling/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/java-performance-profiling/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Java performance&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Hướng dẫn sử dụng profiler, GC tuning và các kỹ thuật tối ưu mã Java cho ứng dụng doanh nghiệp.&lt;/p&gt;&#xA;&lt;h3 id=&#34;công-cụ-profiler&#34;&gt;Công cụ profiler&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;VisualVM, YourKit, Java Flight Recorder.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;best-practices&#34;&gt;Best practices&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tránh tạo object không cần thiết, sử dụng các collection phù hợp, tối ưu SQL.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

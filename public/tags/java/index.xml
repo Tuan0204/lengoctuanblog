@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on MyBlog</title>
-    <link>http://localhost:1313/lengoctuanblog/tags/java/</link>
+    <link>http://localhost:53955/lengoctuanblog/tags/java/</link>
     <description>Recent content in Java on MyBlog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/lengoctuanblog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53955/lengoctuanblog/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hành trình học Java: Từ cơ bản đến ứng dụng thực tế</title>
-      <link>http://localhost:1313/lengoctuanblog/hanh-trinh-hoc-java/</link>
+      <link>http://localhost:53955/lengoctuanblog/hanh-trinh-hoc-java/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/hanh-trinh-hoc-java/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/hanh-trinh-hoc-java/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Learning Java&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Trong bài này, tôi chia sẻ hành trình học Java của mình: những bước khởi đầu, cột mốc quan trọng, và cách áp dụng vào các dự án thực tế.&lt;/p&gt;&#xA;&lt;h3 id=&#34;bắt-đầu&#34;&gt;Bắt đầu&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lý do chọn Java: ứng dụng doanh nghiệp, nhiều tài liệu, cộng đồng lớn.&lt;/li&gt;&#xA;&lt;li&gt;Tài nguyên ban đầu: sách Head First Java, tutorialspoint, Oracle docs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cột-mốc-học-tập&#34;&gt;Cột mốc học tập&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hiểu cú pháp cơ bản và OOP (1-2 tuần học cơ bản).&lt;/li&gt;&#xA;&lt;li&gt;Làm project nhỏ: quản lý sách/khách sạn để hiểu luồng dữ liệu và cấu trúc.&lt;/li&gt;&#xA;&lt;li&gt;Học công cụ: Maven/Gradle, Git, JUnit.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ứng-dụng-thực-tế&#34;&gt;Ứng dụng thực tế&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dùng Spring Boot để xây dựng REST API.&lt;/li&gt;&#xA;&lt;li&gt;Kết nối SQL Server và triển khai migration.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;bài-học-rút-ra&#34;&gt;Bài học rút ra&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Thực hành &amp;gt; đọc: code nhiều project nhỏ.&lt;/li&gt;&#xA;&lt;li&gt;Học test và debug ngay từ đầu.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hy vọng hành trình này giúp bạn định hướng con đường học Java một cách rõ ràng và thiết thực.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java cơ bản: Bắt đầu nhanh và cấu trúc dự án</title>
-      <link>http://localhost:1313/lengoctuanblog/java-co-ban/</link>
+      <link>http://localhost:53955/lengoctuanblog/java-co-ban/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/java-co-ban/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/java-co-ban/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1526378728711-3b3f5d9f1f9b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Java programming&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến, mạnh mẽ và được sử dụng rộng rãi trong doanh nghiệp. Bài viết này hướng dẫn bạn từ việc cài đặt, cấu trúc dự án đến các khái niệm OOP cơ bản.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-cài-đặt&#34;&gt;1. Cài đặt&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tải JDK (OpenJDK hoặc Oracle JDK) và thiết lập biến môi trường JAVA_HOME.&lt;/li&gt;&#xA;&lt;li&gt;Dùng Maven hoặc Gradle để quản lý phụ thuộc.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-cấu-trúc-dự-án-tham-khảo-maven&#34;&gt;2. Cấu trúc dự án tham khảo (Maven)&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-plaintext&#34;&gt;my-app/&#xD;&#xA;├─ src/main/java/com/example/app&#xD;&#xA;│  └─ App.java&#xD;&#xA;├─ src/test/java&#xD;&#xA;└─ pom.xml&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;3-nguyên-tắc-oop-cơ-bản&#34;&gt;3. Nguyên tắc OOP cơ bản&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lớp và đối tượng, kế thừa, đóng gói, đa hình, trừu tượng.&lt;/li&gt;&#xA;&lt;li&gt;Ví dụ lớp đơn giản:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class Hello {&#xD;&#xA;    public static void main(String[] args) {&#xD;&#xA;        System.out.println(&#34;Hello, Java!&#34;);&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;4-mẹo-thực-hành&#34;&gt;4. Mẹo thực hành&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Viết unit test sớm (JUnit / Mockito).&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng linter/formatter và tuân theo chuẩn đặt tên.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;5-tài-nguyên-tham-khảo&#34;&gt;5. Tài nguyên tham khảo&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Oracle Java docs, Baeldung, StackOverflow.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kết luận: nắm vững cấu trúc và OOP sẽ giúp bạn tiến nhanh khi học các framework Java hiện đại.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Streams và Collections: Xử lý dữ liệu hiệu quả</title>
-      <link>http://localhost:1313/lengoctuanblog/java-streams-collections/</link>
+      <link>http://localhost:53955/lengoctuanblog/java-streams-collections/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/java-streams-collections/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/java-streams-collections/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1532619675605-0f4e1f3d6f8b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Java streams&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ví-dụ-cơ-bản&#34;&gt;Ví dụ cơ bản&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;List&lt;String&gt; names = Arrays.asList(&#34;An&#34;, &#34;Binh&#34;, &#34;Cuong&#34;);&#xD;&#xA;List&lt;String&gt; filtered = names.stream()&#xD;&#xA;    .filter(s -&gt; s.length() &gt; 3)&#xD;&#xA;    .map(String::toUpperCase)&#xD;&#xA;    .collect(Collectors.toList());&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;tips-tối-ưu&#34;&gt;Tips tối ưu&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tránh dùng stream trong vòng lặp nặng, cân nhắc song song (parallelStream) khi tập dữ liệu lớn.&lt;/li&gt;&#xA;&lt;li&gt;Sử dụng Collector để gom nhóm, tính toán tổng hợp.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Streams kết hợp Collections giúp code ngắn gọn, dễ hiểu và dễ maintain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Khó khăn và kinh nghiệm khi học Java: Lời khuyên thực tế</title>
-      <link>http://localhost:1313/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</link>
+      <link>http://localhost:53955/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Challenges coding&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Học Java không tránh khỏi những khó khăn — tôi đã trải qua nhiều thử thách và muốn chia sẻ cách mình vượt qua.&lt;/p&gt;&#xA;&lt;h3 id=&#34;những-khó-khăn-thường-gặp&#34;&gt;Những khó khăn thường gặp&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Khó hiểu OOP lúc đầu: lớp, interface, inheritance.&lt;/li&gt;&#xA;&lt;li&gt;Quản lý phụ thuộc và build tools: Maven/Gradle.&lt;/li&gt;&#xA;&lt;li&gt;Debugging và stack trace dài với framework lớn.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kinh-nghiệm-giải-quyết&#34;&gt;Kinh nghiệm giải quyết&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Viết test nhỏ để cô lập vấn đề (JUnit).&lt;/li&gt;&#xA;&lt;li&gt;Dùng debugger, log có cấu trúc (SLF4J/Logback).&lt;/li&gt;&#xA;&lt;li&gt;Chia nhỏ vấn đề, đọc stack trace từ dưới lên.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;thực-hành-đề-xuất&#34;&gt;Thực hành đề xuất&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Làm mini-project liên tục: CRUD app, xử lý dữ liệu, tích hợp API.&lt;/li&gt;&#xA;&lt;li&gt;Đọc code của dự án mã nguồn mở để học patterns.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kết luận: kiên nhẫn, thực hành có hướng dẫn và học cách debug sẽ giúp bạn tiến bộ nhanh hơn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot cơ bản: Xây dựng REST API nhanh chóng</title>
-      <link>http://localhost:1313/lengoctuanblog/spring-boot-intro/</link>
+      <link>http://localhost:53955/lengoctuanblog/spring-boot-intro/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/spring-boot-intro/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/spring-boot-intro/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Spring Boot&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Spring Boot giúp khởi tạo ứng dụng Java với cấu hình tối thiểu. Đây là hướng dẫn tạo REST API đầu tiên.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-khởi-tạo-project&#34;&gt;1. Khởi tạo project&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dùng Spring Initializr hoặc start.spring.io, chọn Web, Lombok (tùy), JPA nếu cần DB.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-controller-mẫu&#34;&gt;2. Controller mẫu&lt;/h3&gt;&#xA;&#xD;&#xA;&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;@RestController&#xD;&#xA;public class HelloController {&#xD;&#xA;    @GetMapping(&#34;/api/hello&#34;)&#xD;&#xA;    public String hello() {&#xD;&#xA;        return &#34;Hello from Spring Boot&#34;;&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;h3 id=&#34;3-kết-nối-database&#34;&gt;3. Kết nối database&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sử dụng Spring Data JPA và cấu hình datasource trong application.properties.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Spring Boot phù hợp cho microservices và ứng dụng doanh nghiệp nhỏ.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tối ưu hiệu năng Java: Profiling và best practices</title>
-      <link>http://localhost:1313/lengoctuanblog/java-performance-profiling/</link>
+      <link>http://localhost:53955/lengoctuanblog/java-performance-profiling/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/java-performance-profiling/</guid>
+      <guid>http://localhost:53955/lengoctuanblog/java-performance-profiling/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Java performance&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Hướng dẫn sử dụng profiler, GC tuning và các kỹ thuật tối ưu mã Java cho ứng dụng doanh nghiệp.&lt;/p&gt;&#xA;&lt;h3 id=&#34;công-cụ-profiler&#34;&gt;Công cụ profiler&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;VisualVM, YourKit, Java Flight Recorder.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;best-practices&#34;&gt;Best practices&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tránh tạo object không cần thiết, sử dụng các collection phù hợp, tối ưu SQL.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><script src="/lengoctuanblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=lengoctuanblog/livereload" data-no-instant defer></script>
+    <head><script src="/lengoctuanblog/livereload.js?mindelay=10&amp;v=2&amp;port=53955&amp;path=lengoctuanblog/livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Java Streams và Collections: Xử lý dữ liệu hiệu quả - MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:1313/lengoctuanblog/java-streams-collections/">
+        <title>Java Streams và Collections: Xử lý dữ liệu hiệu quả - MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:53955/lengoctuanblog/java-streams-collections/">
   <meta property="og:site_name" content="MyBlog">
   <meta property="og:title" content="Java Streams và Collections: Xử lý dữ liệu hiệu quả">
   <meta property="og:description" content="Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.
@@ -17,10 +17,10 @@ Ví dụ cơ bản List names = Arrays.asList(&#34;An&#34;, &#34;Binh&#34;, &#34
     <meta property="article:tag" content="Java">
     <meta property="article:tag" content="Streams">
     <meta property="article:tag" content="Collections">
-    <meta property="og:image" content="http://localhost:1313/logo.png">
+    <meta property="og:image" content="http://localhost:53955/logo.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:image" content="http://localhost:53955/logo.png">
   <meta name="twitter:title" content="Java Streams và Collections: Xử lý dữ liệu hiệu quả">
   <meta name="twitter:description" content="Trong Java 8 trở lên, Streams API cung cấp cách khai báo, nối chuỗi và xử lý tập hợp dữ liệu một cách dễ đọc và hiệu quả.
 Ví dụ cơ bản List names = Arrays.asList(&#34;An&#34;, &#34;Binh&#34;, &#34;Cuong&#34;);List filtered = names.stream().filter(s -&gt; s.length() &gt; 3).map(String::toUpperCase).collect(Collectors.toList());Tips tối ưu Tránh dùng stream trong vòng lặp nặng, cân nhắc song song (parallelStream) khi tập dữ liệu lớn. Sử dụng Collector để gom nhóm, tính toán tổng hợp. Streams kết hợp Collections giúp code ngắn gọn, dễ hiểu và dễ maintain.">
@@ -28,7 +28,7 @@ Ví dụ cơ bản List names = Arrays.asList(&#34;An&#34;, &#34;Binh&#34;, &#34
 <meta name="apple-mobile-web-app-title" content="MyBlog">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/lengoctuanblog/java-streams-collections/" /><link rel="prev" href="http://localhost:1313/lengoctuanblog/js-es6-tong-quan/" /><link rel="next" href="http://localhost:1313/lengoctuanblog/java-co-ban/" /><link rel="stylesheet" href="/lengoctuanblog/css/style.min.css"><link rel="preload" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:53955/lengoctuanblog/java-streams-collections/" /><link rel="prev" href="http://localhost:53955/lengoctuanblog/js-es6-tong-quan/" /><link rel="next" href="http://localhost:53955/lengoctuanblog/java-co-ban/" /><link rel="stylesheet" href="/lengoctuanblog/css/style.min.css"><link rel="preload" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lengoctuanblog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lengoctuanblog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -38,11 +38,11 @@ Ví dụ cơ bản List names = Arrays.asList(&#34;An&#34;, &#34;Binh&#34;, &#34
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/lengoctuanblog\/java-streams-collections\/"
-        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, streams, collections","wordcount":  92 ,
-        "url": "http:\/\/localhost:1313\/lengoctuanblog\/java-streams-collections\/","datePublished": "2025-10-21T00:00:00+00:00","dateModified": "2025-10-22T01:08:22+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "http:\/\/localhost:53955\/lengoctuanblog\/java-streams-collections\/"
+        },"image": ["http:\/\/localhost:53955\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, streams, collections","wordcount":  92 ,
+        "url": "http:\/\/localhost:53955\/lengoctuanblog\/java-streams-collections\/","datePublished": "2025-10-21T00:00:00+00:00","dateModified": "2025-10-22T01:08:22+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
-            "name": "xxxx","logo": "http:\/\/localhost:1313\/images\/portrait.jpg"},"author": {
+            "name": "xxxx","logo": "http:\/\/localhost:53955\/images\/portrait.jpg"},"author": {
                 "@type": "Person",
                 "name": "Le Ngoc Tuan"
             },"description": ""
@@ -174,7 +174,7 @@ List<String> filtered = names.stream()
                             <a class="link-to-markdown" href="/lengoctuanblog/java-streams-collections/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả" data-via="xxxx" data-hashtags="java,streams,collections"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-hashtag="java"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i data-svg-src="/lengoctuanblog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:1313/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a1313%2flengoctuanblog%2fjava-streams-collections%2f&amp;text=Java%20Streams%20v%c3%a0%20Collections%3a%20X%e1%bb%ad%20l%c3%bd%20d%e1%bb%af%20li%e1%bb%87u%20hi%e1%bb%87u%20qu%e1%ba%a3" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả" data-via="xxxx" data-hashtags="java,streams,collections"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-hashtag="java"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i data-svg-src="/lengoctuanblog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:53955/lengoctuanblog/java-streams-collections/" data-title="Java Streams và Collections: Xử lý dữ liệu hiệu quả" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a53955%2flengoctuanblog%2fjava-streams-collections%2f&amp;text=Java%20Streams%20v%c3%a0%20Collections%3a%20X%e1%bb%ad%20l%c3%bd%20d%e1%bb%af%20li%e1%bb%87u%20hi%e1%bb%87u%20qu%e1%ba%a3" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>

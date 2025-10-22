@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><script src="/lengoctuanblog/livereload.js?mindelay=10&amp;v=2&amp;port=53955&amp;path=lengoctuanblog/livereload" data-no-instant defer></script>
+    <head><script src="/lengoctuanblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=lengoctuanblog/livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Tối ưu hiệu năng Java: Profiling và best practices - MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:53955/lengoctuanblog/java-performance-profiling/">
+        <title>Tối ưu hiệu năng Java: Profiling và best practices - MyBlog</title><meta name="Description" content="Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."><meta property="og:url" content="http://localhost:1313/lengoctuanblog/java-performance-profiling/">
   <meta property="og:site_name" content="MyBlog">
   <meta property="og:title" content="Tối ưu hiệu năng Java: Profiling và best practices">
   <meta property="og:description" content="Hướng dẫn sử dụng profiler, GC tuning và các kỹ thuật tối ưu mã Java cho ứng dụng doanh nghiệp.
@@ -17,10 +17,10 @@ Công cụ profiler VisualVM, YourKit, Java Flight Recorder. Best practices Trá
     <meta property="article:tag" content="Java">
     <meta property="article:tag" content="Performance">
     <meta property="article:tag" content="Profiling">
-    <meta property="og:image" content="http://localhost:53955/logo.png">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:53955/logo.png">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
   <meta name="twitter:title" content="Tối ưu hiệu năng Java: Profiling và best practices">
   <meta name="twitter:description" content="Hướng dẫn sử dụng profiler, GC tuning và các kỹ thuật tối ưu mã Java cho ứng dụng doanh nghiệp.
 Công cụ profiler VisualVM, YourKit, Java Flight Recorder. Best practices Tránh tạo object không cần thiết, sử dụng các collection phù hợp, tối ưu SQL.">
@@ -28,7 +28,7 @@ Công cụ profiler VisualVM, YourKit, Java Flight Recorder. Best practices Trá
 <meta name="apple-mobile-web-app-title" content="MyBlog">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:53955/lengoctuanblog/java-performance-profiling/" /><link rel="next" href="http://localhost:53955/lengoctuanblog/spring-boot-intro/" /><link rel="stylesheet" href="/lengoctuanblog/css/style.min.css"><link rel="preload" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/lengoctuanblog/java-performance-profiling/" /><link rel="next" href="http://localhost:1313/lengoctuanblog/spring-boot-intro/" /><link rel="stylesheet" href="/lengoctuanblog/css/style.min.css"><link rel="preload" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lengoctuanblog/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lengoctuanblog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lengoctuanblog/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -38,11 +38,11 @@ Công cụ profiler VisualVM, YourKit, Java Flight Recorder. Best practices Trá
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:53955\/lengoctuanblog\/java-performance-profiling\/"
-        },"image": ["http:\/\/localhost:53955\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, performance, profiling","wordcount":  45 ,
-        "url": "http:\/\/localhost:53955\/lengoctuanblog\/java-performance-profiling\/","datePublished": "2025-10-21T00:00:00+00:00","dateModified": "2025-10-22T01:08:22+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "http:\/\/localhost:1313\/lengoctuanblog\/java-performance-profiling\/"
+        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, performance, profiling","wordcount":  45 ,
+        "url": "http:\/\/localhost:1313\/lengoctuanblog\/java-performance-profiling\/","datePublished": "2025-10-21T00:00:00+00:00","dateModified": "2025-10-22T01:08:22+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
-            "name": "xxxx","logo": "http:\/\/localhost:53955\/images\/portrait.jpg"},"author": {
+            "name": "xxxx","logo": "http:\/\/localhost:1313\/images\/portrait.jpg"},"author": {
                 "@type": "Person",
                 "name": "Le Ngoc Tuan"
             },"description": ""
@@ -169,7 +169,7 @@ Công cụ profiler VisualVM, YourKit, Java Flight Recorder. Best practices Trá
                             <a class="link-to-markdown" href="/lengoctuanblog/java-performance-profiling/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices" data-via="xxxx" data-hashtags="java,performance,profiling"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-hashtag="java"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i data-svg-src="/lengoctuanblog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:53955/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a53955%2flengoctuanblog%2fjava-performance-profiling%2f&amp;text=T%e1%bb%91i%20%c6%b0u%20hi%e1%bb%87u%20n%c4%83ng%20Java%3a%20Profiling%20v%c3%a0%20best%20practices" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices" data-via="xxxx" data-hashtags="java,performance,profiling"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-hashtag="java"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i data-svg-src="/lengoctuanblog/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:1313/lengoctuanblog/java-performance-profiling/" data-title="Tối ưu hiệu năng Java: Profiling và best practices" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a1313%2flengoctuanblog%2fjava-performance-profiling%2f&amp;text=T%e1%bb%91i%20%c6%b0u%20hi%e1%bb%87u%20n%c4%83ng%20Java%3a%20Profiling%20v%c3%a0%20best%20practices" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>

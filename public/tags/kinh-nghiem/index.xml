@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kinh-Nghiem on MyBlog</title>
-    <link>http://localhost:1313/lengoctuanblog/tags/kinh-nghiem/</link>
+    <link>https://tuan0204.github.io/lengoctuanblog/tags/kinh-nghiem/</link>
     <description>Recent content in Kinh-Nghiem on MyBlog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 22 Oct 2025 01:08:22 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/lengoctuanblog/tags/kinh-nghiem/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tuan0204.github.io/lengoctuanblog/tags/kinh-nghiem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Khó khăn và kinh nghiệm khi học Java: Lời khuyên thực tế</title>
-      <link>http://localhost:1313/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</link>
+      <link>https://tuan0204.github.io/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</guid>
+      <guid>https://tuan0204.github.io/lengoctuanblog/kho-khan-va-kinh-nghiem-hoc-java/</guid>
       <description>&lt;p style=&#34;text-align:center;margin-bottom:1rem;&#34;&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&amp;w=1600&amp;auto=format&amp;fit=crop&#34; alt=&#34;Challenges coding&#34; style=&#34;width:100%;max-width:1200px;height:auto;border-radius:8px;&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Học Java không tránh khỏi những khó khăn — tôi đã trải qua nhiều thử thách và muốn chia sẻ cách mình vượt qua.&lt;/p&gt;&#xA;&lt;h3 id=&#34;những-khó-khăn-thường-gặp&#34;&gt;Những khó khăn thường gặp&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Khó hiểu OOP lúc đầu: lớp, interface, inheritance.&lt;/li&gt;&#xA;&lt;li&gt;Quản lý phụ thuộc và build tools: Maven/Gradle.&lt;/li&gt;&#xA;&lt;li&gt;Debugging và stack trace dài với framework lớn.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kinh-nghiệm-giải-quyết&#34;&gt;Kinh nghiệm giải quyết&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Viết test nhỏ để cô lập vấn đề (JUnit).&lt;/li&gt;&#xA;&lt;li&gt;Dùng debugger, log có cấu trúc (SLF4J/Logback).&lt;/li&gt;&#xA;&lt;li&gt;Chia nhỏ vấn đề, đọc stack trace từ dưới lên.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;thực-hành-đề-xuất&#34;&gt;Thực hành đề xuất&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Làm mini-project liên tục: CRUD app, xử lý dữ liệu, tích hợp API.&lt;/li&gt;&#xA;&lt;li&gt;Đọc code của dự án mã nguồn mở để học patterns.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Kết luận: kiên nhẫn, thực hành có hướng dẫn và học cách debug sẽ giúp bạn tiến bộ nhanh hơn.&lt;/p&gt;</description>
     </item>
   </channel>

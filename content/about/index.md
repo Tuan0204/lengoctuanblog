@@ -3,7 +3,7 @@ title: "Giới thiệu"
 date: 2025-10-21
 ---
 <div class="about-portrait" style="float:right;max-width:320px;margin:0 0 1rem 1rem;">
-  <img src="portrait.jpg" alt="Ảnh chân dung Lê Ngọc Tuấn" style="width:100%;height:auto;border-radius:8px;" />
+  <img src="portrait1.jpg" alt="Ảnh chân dung Lê Ngọc Tuấn" style="width:100%;height:auto;border-radius:8px;" />
   <p style="font-size:0.95rem;margin-top:0.4rem;"></p>
 </div>
 

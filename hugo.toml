@@ -110,7 +110,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "Blog cá nhân về công nghệ, lập trình, và chia sẻ kinh nghiệm."
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/lengoctuanblog/images/logo.png"]
+  images = ["/images/logo.png"]
 
   # Author config
   # 作者配置
@@ -248,7 +248,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-  avatarURL = "/lengoctuanblog/images/portrait.jpg"
+  avatarURL = "/images/portrait.jpg"
   # title shown in home page (HTML format is supported)
   # 主页显示的网站标题 (支持 HTML 格式)
   title = "MyBlog"
@@ -617,8 +617,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # 出版者信息
         [params.page.seo.publisher]
           name = "xxxx"
-          # use project-base absolute path for GitHub Pages project site
-          logoUrl = "/lengoctuanblog/images/portrait.jpg"
+          # publisher logo (project-root relative)
+          logoUrl = "/images/portrait.jpg"
 
   # TypeIt config
   # TypeIt 配置
@@ -648,12 +648,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Site SEO config
   # 网站 SEO 配置
   [params.seo]
-    # image URL
-    # 图片 URL (use project-base absolute path for GitHub Pages project site)
-    image = "/lengoctuanblog/images/Apple-Devices-Preview.png"
-    # thumbnail URL
-    # 缩略图 URL
-    thumbnailUrl = "/lengoctuanblog/images/screenshot.png"
+  # image URL
+  # 图片 URL (project-root relative)
+  image = "/images/Apple-Devices-Preview.png"
+  # thumbnail URL
+  # 缩略图 URL
+  thumbnailUrl = "/images/screenshot.png"
 
   # Analytics config
   # 网站分析配置
@@ -868,7 +868,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/lengoctuanblog/images/portrait.jpg"
+          avatarURL = "/images/portrait.jpg"
           title = "MyBlog"
           subtitle = "Xin chào, chào mừng đến với blog của tôi"
           typeit = true
@@ -959,7 +959,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/lengoctuanblog/images/avatar.png"
+          avatarURL = "/images/avatar.png"
           title = ""
           subtitle = "一个简洁、优雅且高效的 Hugo 主题"
           typeit = true

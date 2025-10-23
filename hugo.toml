@@ -1,5 +1,9 @@
 baseURL = "https://tuan0204.github.io/lengoctuanblog/"
 
+# Use relative URLs so generated links work correctly when site is hosted under a project subpath
+relativeURLs = true
+canonifyURLs = false
+
 # theme
 # 主题
 theme = "LoveIt"
@@ -606,14 +610,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Page SEO config
     # 页面 SEO 配置
     [params.page.seo]
-      # image URL
-      # 图片 URL
-      images = []
-      # Publisher info
-      # 出版者信息
-      [params.page.seo.publisher]
-        name = "xxxx"
-        logoUrl = "/images/portrait.jpg"
+        # image URL
+        # 图片 URL
+        images = []
+        # Publisher info
+        # 出版者信息
+        [params.page.seo.publisher]
+          name = "xxxx"
+          # use project-base absolute path for GitHub Pages project site
+          logoUrl = "/lengoctuanblog/images/portrait.jpg"
 
   # TypeIt config
   # TypeIt 配置
@@ -644,11 +649,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站 SEO 配置
   [params.seo]
     # image URL
-    # 图片 URL
-    image = "/images/Apple-Devices-Preview.png"
+    # 图片 URL (use project-base absolute path for GitHub Pages project site)
+    image = "/lengoctuanblog/images/Apple-Devices-Preview.png"
     # thumbnail URL
     # 缩略图 URL
-    thumbnailUrl = "/images/screenshot.png"
+    thumbnailUrl = "/lengoctuanblog/images/screenshot.png"
 
   # Analytics config
   # 网站分析配置
